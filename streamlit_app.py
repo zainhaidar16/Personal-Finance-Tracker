@@ -12,16 +12,20 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Styling
+# Styling for the dark theme
 st.markdown("""
     <style>
         .main {
-            background-color: #f5f5f5;
+            background-color: #121212;
+            color: white;
+        }
+        h1, h2, h3, h4, h5, h6, p, div {
+            color: white;
         }
         .stMetric {
             border: 1px solid #ddd;
             border-radius: 8px;
-            background: #ffffff;
+            background: #333333;
             padding: 10px;
         }
     </style>
@@ -31,7 +35,7 @@ st.markdown("""
 st.sidebar.header("Instructions")
 st.sidebar.info("""
 1. Upload your transaction file (CSV or Excel).\n
-2. Ensure columns for Date, Amount, and Description exist.\n
+2. The app will automatically detect columns and values.\n
 3. Visualize and analyze your expenses.\n
 4. Download your processed data or summary report.
 """)
@@ -44,19 +48,6 @@ st.subheader("Track and visualize your expenses effortlessly!")
 # File uploader
 uploaded_file = st.file_uploader("Upload your transaction file (CSV or Excel)", type=["csv", "xlsx"])
 
-# Default categories
-default_categories = {
-    "groceries": "Food",
-    "electricity": "Utilities",
-    "movie": "Entertainment",
-    "dining": "Food",
-    "gas": "Transportation",
-    "salary": "Income",
-    "rent": "Housing",
-    "insurance": "Insurance",
-    "other": "Other"
-}
-
 if uploaded_file:
     # Load the data
     try:
@@ -67,83 +58,87 @@ if uploaded_file:
     except Exception as e:
         st.error(f"Error loading file: {e}")
     else:
-        # Preview data
-        st.write("### Uploaded Data", data.head())
+        st.write("### Uploaded Data Preview", data.head())
 
-        # Preprocessing
-        data.columns = [col.strip().lower() for col in data.columns]  # Normalize column names
-        if "date" in data.columns:
-            data["date"] = pd.to_datetime(data["date"])
+        # Automatic column type detection
+        st.write("### Analyzing Data Columns")
+        st.write("Detected columns and sample values:")
+        detected_columns = {}
+        for col in data.columns:
+            sample_values = data[col].dropna().unique()[:5]
+            detected_columns[col] = sample_values
+            st.write(f"**{col}**: {sample_values}")
+
+        # Assign column types
+        date_col = next((col for col in data.columns if "date" in col.lower()), None)
+        desc_col = next((col for col in data.columns if "desc" in col.lower() or "category" in col.lower()), None)
+        amount_col = next((col for col in data.columns if "amount" in col.lower() or "debit" in col.lower() or "credit" in col.lower()), None)
+        income_expense_col = next((col for col in data.columns if "income" in col.lower() or "expense" in col.lower()), None)
+
+        if not date_col or not amount_col or not income_expense_col:
+            st.error("The required columns (Date, Amount, and Income/Expense) were not detected!")
         else:
-            st.error("Date column not found!")
+            st.write(f"**Date Column**: {date_col}")
+            st.write(f"**Description Column**: {desc_col}")
+            st.write(f"**Amount Column**: {amount_col}")
+            st.write(f"**Income/Expense Column**: {income_expense_col}")
 
-        if "amount" not in data.columns:
-            st.error("Amount column not found!")
+            # Preprocessing
+            data = data.rename(columns={date_col: "Date", desc_col: "Description", amount_col: "Amount", income_expense_col: "Type"})
+            data["Date"] = pd.to_datetime(data["Date"], errors="coerce")
+            data["Amount"] = pd.to_numeric(data["Amount"], errors="coerce")
+            data.dropna(subset=["Date", "Amount"], inplace=True)
 
-        if "description" not in data.columns:
-            st.error("Description column not found!")
+            # Calculate totals
+            total_expenses = data[data["Type"].str.lower() == "expense"]["Amount"].sum()
+            total_income = data[data["Type"].str.lower() == "income"]["Amount"].sum()
+            net_savings = total_income - total_expenses
 
-        # Categorize transactions
-        data["category"] = data["description"].map(
-            lambda x: default_categories.get(x.lower(), "Other")
-        )
+            # Insights
+            st.write("### Key Metrics")
+            col1, col2, col3 = st.columns(3)
+            col1.metric("Total Expenses", f"${total_expenses:,.2f}")
+            col2.metric("Total Income", f"${total_income:,.2f}")
+            col3.metric("Net Savings", f"${net_savings:,.2f}")
 
-        # Insights
-        st.write("### Key Metrics")
-        col1, col2, col3 = st.columns(3)
-        total_expenses = data[data["amount"] < 0]["amount"].sum()
-        total_income = data[data["amount"] > 0]["amount"].sum()
-        net_savings = total_income + total_expenses
+            # Visualizations
+            st.write("### Expense Breakdown by Category")
+            if desc_col:
+                category_summary = data[data["Type"].str.lower() == "expense"].groupby("Description")["Amount"].sum()
+                fig, ax = plt.subplots(figsize=(10, 6))
+                category_summary.plot(kind="bar", ax=ax, color="skyblue")
+                ax.set_title("Expenses by Category")
+                ax.set_ylabel("Amount ($)")
+                st.pyplot(fig)
 
-        col1.metric("Total Expenses", f"${-total_expenses:,.2f}")
-        col2.metric("Total Income", f"${total_income:,.2f}")
-        col3.metric("Net Savings", f"${net_savings:,.2f}")
+            
 
-        # Visualizations
-        st.write("### Expense Breakdown by Category")
-        category_summary = data[data["amount"] < 0].groupby("category")["amount"].sum().abs()
-        fig, ax = plt.subplots(figsize=(10, 6))
-        category_summary.plot(kind="pie", autopct="%1.1f%%", startangle=140, ax=ax, legend=True)
-        ax.set_ylabel("")
-        st.pyplot(fig)
+            # Export processed data
+            def convert_df(df):
+                return df.to_csv(index=False).encode("utf-8")
 
-        st.write("### Monthly Expense Trends")
-        data["month"] = data["date"].dt.to_period("M")
-        monthly_expenses = data[data["amount"] < 0].groupby("month")["amount"].sum().abs()
-        fig, ax = plt.subplots(figsize=(10, 6))
-        sns.lineplot(data=monthly_expenses, marker="o", ax=ax)
-        ax.set_title("Monthly Expenses")
-        ax.set_ylabel("Amount ($)")
-        ax.set_xlabel("Month")
-        st.pyplot(fig)
+            csv = convert_df(data)
+            st.download_button(
+                label="Download Processed Data",
+                data=csv,
+                file_name="processed_transactions.csv",
+                mime="text/csv",
+            )
 
-        # Export processed data
-        def convert_df(df):
-            return df.to_csv(index=False).encode("utf-8")
+            # Generate report
+            def generate_report(data):
+                output = BytesIO()
+                writer = pd.ExcelWriter(output, engine="xlsxwriter")
+                data.to_excel(writer, index=False, sheet_name="Transactions")
+                summary = data.groupby("Description")["Amount"].sum()
+                summary.to_excel(writer, sheet_name="Summary")
+                writer.save()
+                return output.getvalue()
 
-        csv = convert_df(data)
-        st.download_button(
-            label="Download Processed Data",
-            data=csv,
-            file_name="processed_transactions.csv",
-            mime="text/csv",
-        )
-
-        # Generate report
-        def generate_report(data):
-            output = BytesIO()
-            writer = pd.ExcelWriter(output, engine="xlsxwriter")
-            data.to_excel(writer, index=False, sheet_name="Transactions")
-            summary = data.groupby("category")["amount"].sum()
-            summary.to_excel(writer, sheet_name="Summary")
-            writer.save()
-            return output.getvalue()
-
-        report = generate_report(data)
-        st.download_button(
-            label="Download Summary Report",
-            data=report,
-            file_name="summary_report.xlsx",
-            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        )
-
+            report = generate_report(data)
+            st.download_button(
+                label="Download Summary Report",
+                data=report,
+                file_name="summary_report.xlsx",
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            )
