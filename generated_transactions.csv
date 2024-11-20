@@ -1,0 +1,1001 @@
+Transaction_Date,Amount,Category,Transaction_Type,Payment_Method,Description
+2023-01-01,-125.45988115263754,Transport,Income,Cash,Electricity bill
+2023-01-02,450.71430640991616,Entertainment,Expense,Online Payment,Movie tickets
+2023-01-03,231.99394181140508,Healthcare,Expense,Cash,Bus fare
+2023-01-04,98.65848419703661,Groceries,Income,Online Payment,Bus fare
+2023-01-05,-343.98135955756345,Healthcare,Expense,Debit Card,Payment for groceries
+2023-01-06,-344.00547966379736,Groceries,Expense,Credit Card,Bus fare
+2023-01-07,-441.91638783180053,Utilities,Income,Credit Card,Movie tickets
+2023-01-08,366.1761457749352,Groceries,Income,Credit Card,Bus fare
+2023-01-09,101.11501174320881,Transport,Income,Credit Card,Movie tickets
+2023-01-10,208.0725777960455,Entertainment,Expense,Credit Card,Electricity bill
+2023-01-11,-479.4155057041975,Utilities,Income,Cash,Payment for groceries
+2023-01-12,469.9098521619943,Groceries,Expense,Online Payment,Bus fare
+2023-01-13,332.4426408004217,Healthcare,Income,Debit Card,Movie tickets
+2023-01-14,-287.66088932172386,Utilities,Income,Cash,Doctor visit
+2023-01-15,-318.1750327928994,Utilities,Income,Online Payment,Payment for groceries
+2023-01-16,-316.5954901465662,Groceries,Expense,Credit Card,Electricity bill
+2023-01-17,-195.75775704046225,Utilities,Expense,Online Payment,Movie tickets
+2023-01-18,24.756431632237877,Healthcare,Income,Online Payment,Electricity bill
+2023-01-19,-68.05498135788423,Utilities,Income,Credit Card,Electricity bill
+2023-01-20,-208.77085980195807,Healthcare,Income,Credit Card,Bus fare
+2023-01-21,111.85289472237946,Groceries,Expense,Credit Card,Bus fare
+2023-01-22,-360.5061393479582,Entertainment,Income,Debit Card,Movie tickets
+2023-01-23,-207.85535146478185,Utilities,Expense,Credit Card,Doctor visit
+2023-01-24,-133.63815670630828,Entertainment,Income,Debit Card,Movie tickets
+2023-01-25,-43.93001578296406,Healthcare,Income,Credit Card,Doctor visit
+2023-01-26,285.1759613930136,Utilities,Income,Debit Card,Electricity bill
+2023-01-27,-300.3262178416403,Transport,Income,Online Payment,Payment for groceries
+2023-01-28,14.234438413611656,Entertainment,Income,Cash,Movie tickets
+2023-01-29,92.41456886204242,Utilities,Income,Online Payment,Movie tickets
+2023-01-30,-453.5495872800023,Entertainment,Expense,Online Payment,Doctor visit
+2023-01-31,107.54485190143839,Utilities,Income,Credit Card,Electricity bill
+2023-02-01,-329.47587631270846,Groceries,Expense,Debit Card,Electricity bill
+2023-02-02,-434.9484070147205,Entertainment,Income,Cash,Doctor visit
+2023-02-03,448.88553725333327,Transport,Income,Credit Card,Electricity bill
+2023-02-04,465.63203307455933,Transport,Expense,Credit Card,Bus fare
+2023-02-05,308.3973481164611,Healthcare,Income,Credit Card,Payment for groceries
+2023-02-06,-195.3862308266293,Utilities,Expense,Online Payment,Movie tickets
+2023-02-07,-402.3278859936161,Entertainment,Expense,Debit Card,Payment for groceries
+2023-02-08,184.23302651215693,Healthcare,Income,Debit Card,Movie tickets
+2023-02-09,-59.84750626039869,Entertainment,Expense,Cash,Bus fare
+2023-02-10,-377.9617651552212,Utilities,Expense,Debit Card,Electricity bill
+2023-02-11,-4.8230898887298395,Transport,Income,Debit Card,Doctor visit
+2023-02-12,-465.6114788847816,Groceries,Expense,Credit Card,Bus fare
+2023-02-13,409.3204020787821,Transport,Income,Credit Card,Payment for groceries
+2023-02-14,-241.22001839998308,Healthcare,Income,Online Payment,Doctor visit
+2023-02-15,162.52228435398195,Groceries,Income,Credit Card,Electricity bill
+2023-02-16,-188.28892391058906,Healthcare,Income,Credit Card,Bus fare
+2023-02-17,20.068021177810806,Utilities,Expense,Credit Card,Doctor visit
+2023-02-18,46.710279343279694,Groceries,Income,Credit Card,Bus fare
+2023-02-19,-315.14554447447296,Healthcare,Income,Online Payment,Bus fare
+2023-02-20,469.5846277645586,Utilities,Expense,Credit Card,Electricity bill
+2023-02-21,275.13282336111456,Transport,Income,Cash,Movie tickets
+2023-02-22,439.49894156418907,Utilities,Income,Cash,Doctor visit
+2023-02-23,394.82735042764887,Entertainment,Expense,Cash,Electricity bill
+2023-02-24,97.89997881108513,Utilities,Expense,Cash,Bus fare
+2023-02-25,421.87423502311685,Utilities,Expense,Credit Card,Electricity bill
+2023-02-26,-411.5074979480805,Entertainment,Expense,Cash,Movie tickets
+2023-02-27,-304.0171375808548,Healthcare,Expense,Credit Card,Doctor visit
+2023-02-28,-454.77271108946195,Healthcare,Expense,Online Payment,Movie tickets
+2023-03-01,-174.66966923673567,Utilities,Expense,Cash,Payment for groceries
+2023-03-02,-111.322710310518,Entertainment,Income,Debit Card,Doctor visit
+2023-03-03,-228.6509682261041,Entertainment,Expense,Cash,Movie tickets
+2023-03-04,328.7375091519293,Transport,Expense,Cash,Bus fare
+2023-03-05,-143.24667330641074,Healthcare,Expense,Credit Card,Doctor visit
+2023-03-06,-219.06549031261926,Groceries,Income,Cash,Doctor visit
+2023-03-07,42.696083158248484,Healthcare,Income,Debit Card,Electricity bill
+2023-03-08,-359.07577502523736,Healthcare,Expense,Credit Card,Bus fare
+2023-03-09,302.1969807540397,Transport,Expense,Credit Card,Payment for groceries
+2023-03-10,-425.4493563202292,Groceries,Expense,Online Payment,Movie tickets
+2023-03-11,486.8869366005173,Transport,Income,Online Payment,Electricity bill
+2023-03-12,272.2447692966574,Groceries,Income,Cash,Movie tickets
+2023-03-13,-301.2843184658276,Utilities,Expense,Online Payment,Payment for groceries
+2023-03-14,-494.4778828763976,Groceries,Income,Online Payment,Payment for groceries
+2023-03-15,315.46142845483416,Transport,Expense,Online Payment,Doctor visit
+2023-03-16,206.85734384761713,Healthcare,Income,Credit Card,Payment for groceries
+2023-03-17,229.00716804098727,Groceries,Income,Credit Card,Movie tickets
+2023-03-18,271.2703466859457,Groceries,Expense,Credit Card,Bus fare
+2023-03-19,-425.9553482659096,Entertainment,Expense,Online Payment,Bus fare
+2023-03-20,-141.53427145572738,Healthcare,Expense,Credit Card,Doctor visit
+2023-03-21,-384.1309404748703,Utilities,Expense,Online Payment,Movie tickets
+2023-03-22,363.10342587559353,Transport,Income,Credit Card,Movie tickets
+2023-03-23,123.2981268275579,Utilities,Income,Credit Card,Payment for groceries
+2023-03-24,-169.1019751473508,Healthcare,Income,Debit Card,Movie tickets
+2023-03-25,-436.44164971397635,Groceries,Expense,Cash,Electricity bill
+2023-03-26,-189.01767828433782,Groceries,Income,Online Payment,Payment for groceries
+2023-03-27,-174.81667797325298,Healthcare,Expense,Debit Card,Electricity bill
+2023-03-28,229.60617833806407,Groceries,Income,Credit Card,Doctor visit
+2023-03-29,137.55747135521312,Groceries,Expense,Online Payment,Bus fare
+2023-03-30,387.2127425763265,Groceries,Expense,Credit Card,Doctor visit
+2023-03-31,-27.78507483805072,Transport,Income,Cash,Bus fare
+2023-04-01,-380.4057540616983,Transport,Expense,Debit Card,Doctor visit
+2023-04-02,213.244787222995,Entertainment,Expense,Cash,Movie tickets
+2023-04-03,260.7850486168975,Utilities,Income,Debit Card,Electricity bill
+2023-04-04,61.27719756949625,Healthcare,Expense,Credit Card,Bus fare
+2023-04-05,270.96717995456095,Healthcare,Expense,Cash,Payment for groceries
+2023-04-06,-6.204403635609253,Healthcare,Expense,Cash,Electricity bill
+2023-04-07,22.732829381994065,Entertainment,Income,Credit Card,Payment for groceries
+2023-04-08,-72.45898164145035,Transport,Income,Cash,Electricity bill
+2023-04-09,-474.5808732559048,Entertainment,Expense,Online Payment,Electricity bill
+2023-04-10,-392.10857300669556,Healthcare,Income,Debit Card,Doctor visit
+2023-04-11,-468.57081431326577,Utilities,Expense,Debit Card,Bus fare
+2023-04-12,136.41041126378036,Groceries,Expense,Debit Card,Bus fare
+2023-04-13,-185.64401892367334,Transport,Expense,Online Payment,Electricity bill
+2023-04-14,8.570691164702794,Transport,Expense,Debit Card,Movie tickets
+2023-04-15,407.56647392609307,Entertainment,Expense,Credit Card,Movie tickets
+2023-04-16,-250.70777085112505,Transport,Income,Cash,Payment for groceries
+2023-04-17,-89.61707696437026,Healthcare,Expense,Online Payment,Payment for groceries
+2023-04-18,255.55113854304864,Healthcare,Income,Debit Card,Doctor visit
+2023-04-19,-271.20183450837754,Entertainment,Income,Credit Card,Electricity bill
+2023-04-20,-423.020090171207,Healthcare,Expense,Cash,Payment for groceries
+2023-04-21,-210.24854708623195,Utilities,Expense,Cash,Payment for groceries
+2023-04-22,-338.77871274599556,Entertainment,Income,Online Payment,Electricity bill
+2023-04-23,429.69765234257306,Utilities,Income,Online Payment,Doctor visit
+2023-04-24,308.1203795644169,Groceries,Income,Online Payment,Payment for groceries
+2023-04-25,133.40375651042348,Utilities,Expense,Credit Card,Doctor visit
+2023-04-26,371.4605901877177,Groceries,Income,Credit Card,Bus fare
+2023-04-27,303.6720768991145,Groceries,Expense,Online Payment,Doctor visit
+2023-04-28,-313.42994111396416,Utilities,Expense,Debit Card,Movie tickets
+2023-04-29,392.55899848997774,Entertainment,Expense,Cash,Movie tickets
+2023-04-30,39.342241915650675,Healthcare,Income,Cash,Doctor visit
+2023-05-01,307.4401551640625,Healthcare,Expense,Credit Card,Movie tickets
+2023-05-02,396.09129992349324,Groceries,Expense,Cash,Bus fare
+2023-05-03,-181.99652502813615,Groceries,Expense,Debit Card,Electricity bill
+2023-05-04,-389.94807547232324,Entertainment,Expense,Cash,Movie tickets
+2023-05-05,-272.0648374580583,Transport,Expense,Credit Card,Movie tickets
+2023-05-06,-72.89221137374369,Utilities,Income,Credit Card,Doctor visit
+2023-05-07,318.0147659224931,Groceries,Expense,Debit Card,Bus fare
+2023-05-08,360.7305832563435,Healthcare,Expense,Debit Card,Electricity bill
+2023-05-09,-493.0478694688093,Entertainment,Income,Cash,Doctor visit
+2023-05-10,10.747302577565733,Utilities,Expense,Cash,Doctor visit
+2023-05-11,-82.588996851221,Entertainment,Income,Credit Card,Bus fare
+2023-05-12,-277.8921895292698,Utilities,Expense,Debit Card,Electricity bill
+2023-05-13,-380.1346326663172,Utilities,Income,Debit Card,Bus fare
+2023-05-14,-162.38482859637202,Groceries,Income,Debit Card,Electricity bill
+2023-05-15,442.90970391251915,Entertainment,Expense,Cash,Bus fare
+2023-05-16,-176.7970679792448,Entertainment,Expense,Debit Card,Doctor visit
+2023-05-17,18.790621743366046,Healthcare,Expense,Credit Card,Doctor visit
+2023-05-18,203.0189588951779,Healthcare,Income,Credit Card,Payment for groceries
+2023-05-19,-136.370397620706,Groceries,Income,Cash,Movie tickets
+2023-05-20,471.7820827209607,Groceries,Income,Online Payment,Bus fare
+2023-05-21,462.4472949421113,Transport,Expense,Cash,Payment for groceries
+2023-05-22,-248.21770417463586,Healthcare,Income,Online Payment,Movie tickets
+2023-05-23,-2.751494107614576,Utilities,Income,Debit Card,Bus fare
+2023-05-24,-199.12169018323033,Entertainment,Expense,Cash,Electricity bill
+2023-05-25,-215.15950562253238,Groceries,Income,Credit Card,Movie tickets
+2023-05-26,-463.1130526454672,Entertainment,Income,Debit Card,Doctor visit
+2023-05-27,109.5643339798969,Entertainment,Expense,Credit Card,Payment for groceries
+2023-05-28,2.6790232288614675,Transport,Income,Debit Card,Movie tickets
+2023-05-29,-448.52124875001067,Healthcare,Expense,Cash,Movie tickets
+2023-05-30,-221.35353576338855,Groceries,Expense,Online Payment,Doctor visit
+2023-05-31,408.26588596665374,Entertainment,Expense,Debit Card,Bus fare
+2023-06-01,-260.43810933302757,Groceries,Expense,Online Payment,Electricity bill
+2023-06-02,-355.1051279087769,Utilities,Expense,Debit Card,Doctor visit
+2023-06-03,-10.547239722436984,Transport,Income,Credit Card,Electricity bill
+2023-06-04,485.65045411060066,Utilities,Income,Credit Card,Bus fare
+2023-06-05,-257.94472848849955,Groceries,Expense,Debit Card,Movie tickets
+2023-06-06,172.13554740587858,Groceries,Expense,Online Payment,Electricity bill
+2023-06-07,261.6196153287176,Healthcare,Income,Cash,Payment for groceries
+2023-06-08,-262.3624560076004,Entertainment,Expense,Cash,Payment for groceries
+2023-06-09,228.21634861185953,Entertainment,Expense,Credit Card,Doctor visit
+2023-06-10,-132.21686728074678,Utilities,Expense,Cash,Bus fare
+2023-06-11,132.30583059357946,Transport,Income,Credit Card,Doctor visit
+2023-06-12,133.52971076089466,Entertainment,Income,Cash,Doctor visit
+2023-06-13,35.77468407475851,Healthcare,Expense,Debit Card,Doctor visit
+2023-06-14,-409.71022994559166,Utilities,Expense,Credit Card,Payment for groceries
+2023-06-15,335.302495589238,Utilities,Income,Credit Card,Payment for groceries
+2023-06-16,-179.21993502826416,Healthcare,Income,Debit Card,Doctor visit
+2023-06-17,-313.4814896001458,Transport,Expense,Credit Card,Payment for groceries
+2023-06-18,-459.22485844523607,Healthcare,Expense,Cash,Bus fare
+2023-06-19,90.89294318824182,Transport,Income,Cash,Doctor visit
+2023-06-20,177.56436184228244,Healthcare,Income,Credit Card,Payment for groceries
+2023-06-21,-483.41217107214385,Healthcare,Income,Cash,Electricity bill
+2023-06-22,12.093058299280983,Groceries,Expense,Online Payment,Doctor visit
+2023-06-23,-273.504224802062,Utilities,Income,Credit Card,Doctor visit
+2023-06-24,145.17279040944982,Healthcare,Expense,Debit Card,Bus fare
+2023-06-25,-325.63357099500854,Healthcare,Income,Online Payment,Movie tickets
+2023-06-26,190.93773810246591,Entertainment,Income,Credit Card,Movie tickets
+2023-06-27,-113.2646536994626,Utilities,Income,Debit Card,Bus fare
+2023-06-28,436.7299887367345,Entertainment,Income,Cash,Bus fare
+2023-06-29,-362.4790558540068,Utilities,Expense,Debit Card,Bus fare
+2023-06-30,-158.9336489497415,Entertainment,Expense,Online Payment,Movie tickets
+2023-07-01,-386.5264787594109,Healthcare,Income,Cash,Bus fare
+2023-07-02,424.6936182785628,Healthcare,Expense,Credit Card,Payment for groceries
+2023-07-03,377.33935338098104,Groceries,Income,Cash,Doctor visit
+2023-07-04,-242.05837228484438,Entertainment,Income,Credit Card,Doctor visit
+2023-07-05,159.98404603417907,Transport,Income,Credit Card,Electricity bill
+2023-07-06,317.22220020121586,Groceries,Income,Debit Card,Electricity bill
+2023-07-07,55.20081159946233,Entertainment,Expense,Debit Card,Doctor visit
+2023-07-08,29.650578356006463,Entertainment,Income,Debit Card,Payment for groceries
+2023-07-09,-258.1477090995483,Groceries,Income,Online Payment,Movie tickets
+2023-07-10,-406.8972321941008,Healthcare,Expense,Online Payment,Movie tickets
+2023-07-11,397.2157579533267,Entertainment,Income,Debit Card,Payment for groceries
+2023-07-12,400.41805716333045,Healthcare,Income,Online Payment,Movie tickets
+2023-07-13,133.1014572732679,Groceries,Income,Cash,Bus fare
+2023-07-14,-160.9702089512993,Healthcare,Expense,Cash,Doctor visit
+2023-07-15,-150.7904253873391,Utilities,Income,Online Payment,Doctor visit
+2023-07-16,225.95567887023935,Transport,Expense,Online Payment,Payment for groceries
+2023-07-17,397.11025995257705,Entertainment,Income,Cash,Movie tickets
+2023-07-18,387.08642426511733,Transport,Income,Credit Card,Electricity bill
+2023-07-19,279.8755458576238,Healthcare,Expense,Cash,Electricity bill
+2023-07-20,142.03164615428773,Entertainment,Income,Cash,Movie tickets
+2023-07-21,-415.86003500495116,Healthcare,Income,Online Payment,Electricity bill
+2023-07-22,-338.37128590538623,Utilities,Expense,Cash,Payment for groceries
+2023-07-23,398.5541885270792,Groceries,Expense,Online Payment,Payment for groceries
+2023-07-24,106.42905965958994,Entertainment,Expense,Online Payment,Movie tickets
+2023-07-25,-490.80294838337034,Utilities,Expense,Debit Card,Electricity bill
+2023-07-26,-398.5284571339679,Utilities,Expense,Cash,Payment for groceries
+2023-07-27,163.50176910805578,Entertainment,Income,Credit Card,Payment for groceries
+2023-07-28,-494.9384161537813,Healthcare,Expense,Debit Card,Bus fare
+2023-07-29,-339.19194858250137,Utilities,Income,Online Payment,Bus fare
+2023-07-30,48.733789366586166,Transport,Income,Online Payment,Payment for groceries
+2023-07-31,191.89519769269327,Utilities,Income,Credit Card,Movie tickets
+2023-08-01,151.96125950260057,Healthcare,Expense,Online Payment,Doctor visit
+2023-08-02,-275.7306905394402,Healthcare,Expense,Cash,Doctor visit
+2023-08-03,212.17922134753587,Transport,Income,Debit Card,Payment for groceries
+2023-08-04,-262.75091250319997,Utilities,Expense,Online Payment,Payment for groceries
+2023-08-05,-174.6003018407323,Healthcare,Expense,Online Payment,Payment for groceries
+2023-08-06,246.4914051180241,Entertainment,Expense,Credit Card,Movie tickets
+2023-08-07,149.63289904721466,Groceries,Expense,Cash,Bus fare
+2023-08-08,349.223410494178,Groceries,Income,Online Payment,Payment for groceries
+2023-08-09,157.61289230034333,Groceries,Income,Credit Card,Payment for groceries
+2023-08-10,68.30860333547162,Utilities,Expense,Online Payment,Electricity bill
+2023-08-11,-406.32523217190754,Transport,Income,Credit Card,Movie tickets
+2023-08-12,-132.28419694056646,Healthcare,Expense,Credit Card,Payment for groceries
+2023-08-13,-234.79763231827457,Entertainment,Expense,Cash,Electricity bill
+2023-08-14,-256.0103566209164,Entertainment,Income,Online Payment,Doctor visit
+2023-08-15,473.0105547524456,Utilities,Income,Cash,Payment for groceries
+2023-08-16,-106.90227533323957,Groceries,Income,Credit Card,Payment for groceries
+2023-08-17,392.0465551771133,Utilities,Expense,Debit Card,Electricity bill
+2023-08-18,131.13862599726292,Transport,Income,Online Payment,Movie tickets
+2023-08-19,294.8113035416484,Transport,Expense,Debit Card,Payment for groceries
+2023-08-20,2.6370931051920934,Healthcare,Income,Online Payment,Doctor visit
+2023-08-21,76.90388462635906,Healthcare,Income,Cash,Payment for groceries
+2023-08-22,-7.482306181136096,Transport,Expense,Cash,Doctor visit
+2023-08-23,-304.7570122019555,Transport,Expense,Cash,Bus fare
+2023-08-24,222.45211526150536,Transport,Expense,Cash,Bus fare
+2023-08-25,-219.22763755914423,Utilities,Expense,Cash,Doctor visit
+2023-08-26,-475.68403356854617,Transport,Expense,Debit Card,Movie tickets
+2023-08-27,145.4722959071678,Entertainment,Expense,Cash,Payment for groceries
+2023-08-28,-322.8893205929511,Groceries,Expense,Credit Card,Payment for groceries
+2023-08-29,440.4585843529143,Transport,Expense,Credit Card,Bus fare
+2023-08-30,453.9285770025874,Groceries,Income,Debit Card,Doctor visit
+2023-08-31,414.8643902204485,Utilities,Expense,Online Payment,Payment for groceries
+2023-09-01,-129.8412997445556,Groceries,Expense,Credit Card,Payment for groceries
+2023-09-02,-484.5433834711326,Utilities,Income,Online Payment,Movie tickets
+2023-09-03,428.3185625877254,Entertainment,Expense,Debit Card,Electricity bill
+2023-09-04,-71.81585168268566,Utilities,Income,Online Payment,Bus fare
+2023-09-05,466.6548190436696,Utilities,Income,Online Payment,Bus fare
+2023-09-06,463.61997708925287,Healthcare,Expense,Online Payment,Electricity bill
+2023-09-07,353.0094554673601,Transport,Income,Online Payment,Payment for groceries
+2023-09-08,-205.55110793041433,Transport,Expense,Debit Card,Movie tickets
+2023-09-09,-114.90227139807473,Entertainment,Income,Credit Card,Movie tickets
+2023-09-10,351.13667151685695,Entertainment,Income,Cash,Bus fare
+2023-09-11,-183.0779948437223,Transport,Income,Online Payment,Movie tickets
+2023-09-12,-330.50725331390754,Healthcare,Expense,Credit Card,Electricity bill
+2023-09-13,56.80126245835015,Transport,Expense,Credit Card,Payment for groceries
+2023-09-14,436.154774160781,Healthcare,Income,Debit Card,Electricity bill
+2023-09-15,196.029796674973,Entertainment,Income,Credit Card,Doctor visit
+2023-09-16,70.06117008936496,Groceries,Expense,Debit Card,Bus fare
+2023-09-17,-402.8235062292315,Entertainment,Expense,Online Payment,Movie tickets
+2023-09-18,115.00722669916979,Entertainment,Income,Online Payment,Doctor visit
+2023-09-19,490.05385010426323,Utilities,Income,Cash,Movie tickets
+2023-09-20,-359.915984763476,Utilities,Expense,Cash,Payment for groceries
+2023-09-21,18.329652363736727,Utilities,Expense,Cash,Payment for groceries
+2023-09-22,377.3730719279555,Utilities,Expense,Credit Card,Payment for groceries
+2023-09-23,240.76861775420446,Healthcare,Expense,Online Payment,Movie tickets
+2023-09-24,197.01574099526795,Transport,Expense,Debit Card,Doctor visit
+2023-09-25,202.48408398710922,Groceries,Income,Cash,Payment for groceries
+2023-09-26,-140.50884878024482,Entertainment,Expense,Debit Card,Doctor visit
+2023-09-27,-206.40815573550663,Healthcare,Income,Debit Card,Movie tickets
+2023-09-28,309.36115547851364,Groceries,Expense,Cash,Doctor visit
+2023-09-29,310.1133946791807,Healthcare,Income,Online Payment,Movie tickets
+2023-09-30,367.0723185801037,Healthcare,Expense,Cash,Movie tickets
+2023-10-01,413.24055255647124,Entertainment,Expense,Debit Card,Bus fare
+2023-10-02,11.342398860937806,Transport,Income,Cash,Movie tickets
+2023-10-03,1.5162946871996041,Utilities,Income,Debit Card,Movie tickets
+2023-10-04,298.2951789667752,Transport,Expense,Debit Card,Electricity bill
+2023-10-05,149.9639307777652,Entertainment,Expense,Cash,Payment for groceries
+2023-10-06,201.96687725770335,Entertainment,Expense,Credit Card,Bus fare
+2023-10-07,295.79266943610105,Entertainment,Expense,Cash,Bus fare
+2023-10-08,390.0053418175663,Groceries,Expense,Credit Card,Bus fare
+2023-10-09,-162.0048431484642,Transport,Income,Debit Card,Electricity bill
+2023-10-10,-124.41704736005596,Transport,Income,Debit Card,Movie tickets
+2023-10-11,-406.018060159131,Healthcare,Expense,Credit Card,Payment for groceries
+2023-10-12,78.28014099617394,Healthcare,Income,Debit Card,Doctor visit
+2023-10-13,-464.0577262032579,Healthcare,Income,Credit Card,Movie tickets
+2023-10-14,-34.40198186753986,Entertainment,Income,Credit Card,Electricity bill
+2023-10-15,42.64463470757664,Transport,Expense,Debit Card,Movie tickets
+2023-10-16,-213.45874787171562,Entertainment,Income,Online Payment,Movie tickets
+2023-10-17,90.8332605690108,Groceries,Expense,Credit Card,Electricity bill
+2023-10-18,-469.4997500609506,Healthcare,Income,Cash,Bus fare
+2023-10-19,-462.6518112507856,Entertainment,Expense,Cash,Bus fare
+2023-10-20,322.6005606596583,Entertainment,Income,Debit Card,Payment for groceries
+2023-10-21,-139.8093585887371,Groceries,Expense,Online Payment,Payment for groceries
+2023-10-22,-372.9394873481152,Utilities,Expense,Debit Card,Bus fare
+2023-10-23,22.24326005480441,Transport,Income,Online Payment,Doctor visit
+2023-10-24,269.99355309861085,Utilities,Expense,Credit Card,Movie tickets
+2023-10-25,-284.17897250315684,Healthcare,Expense,Credit Card,Doctor visit
+2023-10-26,122.89047581900024,Entertainment,Expense,Credit Card,Movie tickets
+2023-10-27,-414.65253500623203,Groceries,Expense,Credit Card,Bus fare
+2023-10-28,-448.3182788313923,Groceries,Expense,Cash,Payment for groceries
+2023-10-29,31.354631568147965,Transport,Expense,Cash,Payment for groceries
+2023-10-30,40.63512161010647,Utilities,Expense,Debit Card,Doctor visit
+2023-10-31,137.4299014982065,Transport,Expense,Online Payment,Payment for groceries
+2023-11-01,226.0913337226616,Entertainment,Income,Credit Card,Bus fare
+2023-11-02,475.85207946253456,Transport,Income,Credit Card,Doctor visit
+2023-11-03,16.3003483011953,Groceries,Expense,Online Payment,Movie tickets
+2023-11-04,-177.04352705875402,Groceries,Expense,Online Payment,Payment for groceries
+2023-11-05,295.1861947687037,Healthcare,Income,Debit Card,Electricity bill
+2023-11-06,-229.16774873792576,Healthcare,Income,Online Payment,Payment for groceries
+2023-11-07,-61.02857929436391,Entertainment,Income,Credit Card,Movie tickets
+2023-11-08,-421.54361865773404,Utilities,Expense,Credit Card,Doctor visit
+2023-11-09,-474.6492565845425,Transport,Income,Credit Card,Movie tickets
+2023-11-10,462.6484146779251,Entertainment,Expense,Credit Card,Electricity bill
+2023-11-11,335.9801205122059,Healthcare,Expense,Credit Card,Bus fare
+2023-11-12,195.97420609369794,Transport,Income,Debit Card,Payment for groceries
+2023-11-13,-91.0470555857301,Healthcare,Expense,Credit Card,Doctor visit
+2023-11-14,-326.70567992915426,Transport,Expense,Debit Card,Bus fare
+2023-11-15,-343.56295732891397,Utilities,Expense,Credit Card,Movie tickets
+2023-11-16,-249.75710183540468,Entertainment,Expense,Cash,Doctor visit
+2023-11-17,49.22666470612046,Transport,Income,Cash,Bus fare
+2023-11-18,214.59592270006237,Groceries,Income,Cash,Doctor visit
+2023-11-19,160.19737671773123,Groceries,Expense,Cash,Electricity bill
+2023-11-20,-220.06610305405718,Transport,Expense,Debit Card,Electricity bill
+2023-11-21,454.8652806631941,Transport,Income,Debit Card,Payment for groceries
+2023-11-22,237.89691669576848,Transport,Expense,Online Payment,Payment for groceries
+2023-11-23,54.35405251140071,Groceries,Income,Credit Card,Electricity bill
+2023-11-24,111.72074623435219,Groceries,Expense,Cash,Doctor visit
+2023-11-25,-80.39993757221009,Transport,Expense,Debit Card,Electricity bill
+2023-11-26,-252.26901049884253,Healthcare,Income,Credit Card,Payment for groceries
+2023-11-27,-144.02732134873844,Healthcare,Income,Credit Card,Electricity bill
+2023-11-28,257.8461104643691,Utilities,Income,Debit Card,Electricity bill
+2023-11-29,-485.6065113702441,Entertainment,Income,Cash,Doctor visit
+2023-11-30,-383.92735949308377,Healthcare,Expense,Online Payment,Bus fare
+2023-12-01,-453.99735797824724,Groceries,Income,Credit Card,Payment for groceries
+2023-12-02,-459.2711976810299,Healthcare,Expense,Online Payment,Doctor visit
+2023-12-03,355.4605840110072,Utilities,Income,Cash,Electricity bill
+2023-12-04,203.65785938002364,Utilities,Income,Cash,Electricity bill
+2023-12-05,-25.826170912674797,Entertainment,Expense,Online Payment,Bus fare
+2023-12-06,-402.16583934899853,Healthcare,Income,Cash,Payment for groceries
+2023-12-07,-8.384124883167658,Groceries,Income,Credit Card,Payment for groceries
+2023-12-08,-26.52822921943431,Groceries,Income,Online Payment,Movie tickets
+2023-12-09,-326.79813008998485,Transport,Income,Cash,Payment for groceries
+2023-12-10,-66.14835076202695,Groceries,Expense,Online Payment,Bus fare
+2023-12-11,-101.49526560262655,Entertainment,Expense,Credit Card,Movie tickets
+2023-12-12,115.85009805221648,Entertainment,Income,Cash,Movie tickets
+2023-12-13,135.09365086764376,Groceries,Income,Credit Card,Electricity bill
+2023-12-14,-454.69599022795546,Groceries,Income,Cash,Electricity bill
+2023-12-15,-125.38738537352879,Transport,Expense,Debit Card,Payment for groceries
+2023-12-16,125.85991571423642,Groceries,Expense,Cash,Movie tickets
+2023-12-17,3.1362585800877127,Transport,Expense,Online Payment,Electricity bill
+2023-12-18,356.4898411883223,Transport,Expense,Cash,Bus fare
+2023-12-19,158.693631618945,Groceries,Income,Credit Card,Electricity bill
+2023-12-20,-337.0655729185703,Utilities,Income,Credit Card,Electricity bill
+2023-12-21,-429.43125259957014,Utilities,Income,Cash,Movie tickets
+2023-12-22,142.41927820631565,Transport,Expense,Online Payment,Movie tickets
+2023-12-23,-473.4886894583782,Groceries,Income,Debit Card,Doctor visit
+2023-12-24,85.77558127346333,Utilities,Expense,Online Payment,Bus fare
+2023-12-25,440.2302414249576,Groceries,Expense,Debit Card,Movie tickets
+2023-12-26,75.47417787587892,Groceries,Income,Credit Card,Payment for groceries
+2023-12-27,-111.8300737934781,Groceries,Income,Online Payment,Bus fare
+2023-12-28,143.28821844235313,Healthcare,Income,Debit Card,Bus fare
+2023-12-29,-41.74710950848339,Groceries,Expense,Cash,Movie tickets
+2023-12-30,45.616789315934966,Healthcare,Expense,Credit Card,Bus fare
+2023-12-31,441.46480877652516,Transport,Income,Cash,Movie tickets
+2024-01-01,-113.89736219922577,Utilities,Income,Credit Card,Electricity bill
+2024-01-02,461.1905638239142,Utilities,Expense,Online Payment,Doctor visit
+2024-01-03,405.3506419560638,Utilities,Income,Online Payment,Electricity bill
+2024-01-04,-304.20886521070355,Utilities,Expense,Credit Card,Movie tickets
+2024-01-05,-430.63869912483455,Utilities,Expense,Credit Card,Movie tickets
+2024-01-06,-399.2219986225733,Utilities,Income,Credit Card,Electricity bill
+2024-01-07,-481.77817434845025,Utilities,Income,Online Payment,Payment for groceries
+2024-01-08,-405.5570392440716,Transport,Income,Debit Card,Payment for groceries
+2024-01-09,183.00677341635685,Groceries,Income,Cash,Payment for groceries
+2024-01-10,-428.811351539771,Entertainment,Expense,Cash,Movie tickets
+2024-01-11,-181.0243697062387,Healthcare,Expense,Online Payment,Bus fare
+2024-01-12,344.8753109694545,Entertainment,Expense,Cash,Movie tickets
+2024-01-13,-476.7280642641741,Entertainment,Income,Credit Card,Bus fare
+2024-01-14,314.4684825889358,Groceries,Expense,Debit Card,Electricity bill
+2024-01-15,-218.14522522660008,Groceries,Income,Cash,Doctor visit
+2024-01-16,-381.8351723783437,Groceries,Income,Debit Card,Bus fare
+2024-01-17,196.73716536415066,Utilities,Income,Credit Card,Payment for groceries
+2024-01-18,128.942846779884,Transport,Income,Cash,Movie tickets
+2024-01-19,377.4720135270529,Utilities,Income,Online Payment,Electricity bill
+2024-01-20,235.0710438038858,Transport,Income,Debit Card,Payment for groceries
+2024-01-21,303.48093038484853,Transport,Expense,Credit Card,Electricity bill
+2024-01-22,-217.9654274286935,Entertainment,Income,Debit Card,Doctor visit
+2024-01-23,-322.56045622027716,Entertainment,Expense,Cash,Movie tickets
+2024-01-24,250.61475164085834,Transport,Expense,Cash,Movie tickets
+2024-01-25,306.834739267264,Transport,Income,Online Payment,Doctor visit
+2024-01-26,490.50514200067335,Utilities,Income,Credit Card,Movie tickets
+2024-01-27,-87.38232308857351,Utilities,Income,Credit Card,Bus fare
+2024-01-28,-127.98191420721685,Entertainment,Expense,Online Payment,Electricity bill
+2024-01-29,276.4129607419968,Groceries,Income,Online Payment,Payment for groceries
+2024-01-30,-159.19645974698216,Transport,Expense,Credit Card,Doctor visit
+2024-01-31,430.7573256035647,Utilities,Income,Debit Card,Bus fare
+2024-02-01,358.41275184301185,Entertainment,Income,Debit Card,Payment for groceries
+2024-02-02,-71.00597262498167,Utilities,Expense,Online Payment,Payment for groceries
+2024-02-03,250.87106779149735,Transport,Expense,Debit Card,Doctor visit
+2024-02-04,254.54287408468235,Transport,Income,Credit Card,Bus fare
+2024-02-05,-396.8761311640674,Healthcare,Expense,Cash,Payment for groceries
+2024-02-06,402.5529066795667,Groceries,Expense,Cash,Payment for groceries
+2024-02-07,5.252372447857169,Healthcare,Expense,Debit Card,Bus fare
+2024-02-08,326.45746610774165,Entertainment,Expense,Online Payment,Movie tickets
+2024-02-09,-179.95039896938823,Utilities,Expense,Online Payment,Payment for groceries
+2024-02-10,395.52322849620043,Entertainment,Income,Online Payment,Electricity bill
+2024-02-11,-110.79832126583688,Transport,Income,Online Payment,Bus fare
+2024-02-12,-489.16234851970165,Healthcare,Expense,Online Payment,Payment for groceries
+2024-02-13,405.38197641926365,Healthcare,Income,Debit Card,Doctor visit
+2024-02-14,-408.71332321386643,Healthcare,Income,Cash,Electricity bill
+2024-02-15,-180.68636240958512,Entertainment,Expense,Cash,Payment for groceries
+2024-02-16,450.0619670508049,Transport,Income,Debit Card,Electricity bill
+2024-02-17,450.6071469375561,Utilities,Expense,Online Payment,Electricity bill
+2024-02-18,73.43788812328614,Utilities,Expense,Debit Card,Movie tickets
+2024-02-19,131.83721216979927,Entertainment,Income,Cash,Electricity bill
+2024-02-20,-51.55447802168021,Healthcare,Expense,Credit Card,Movie tickets
+2024-02-21,-206.78922830193545,Groceries,Expense,Debit Card,Bus fare
+2024-02-22,-171.33545463008403,Entertainment,Expense,Online Payment,Movie tickets
+2024-02-23,172.51845607703842,Entertainment,Expense,Cash,Doctor visit
+2024-02-24,252.37452943768005,Transport,Expense,Cash,Payment for groceries
+2024-02-25,291.5790437258486,Utilities,Income,Cash,Bus fare
+2024-02-26,289.61814279455393,Entertainment,Income,Cash,Bus fare
+2024-02-27,-408.79389695130965,Entertainment,Expense,Online Payment,Doctor visit
+2024-02-28,-5.579695297418539,Healthcare,Expense,Credit Card,Movie tickets
+2024-02-29,-442.44123998335573,Healthcare,Income,Cash,Payment for groceries
+2024-03-01,49.5288823237355,Groceries,Expense,Debit Card,Movie tickets
+2024-03-02,-58.469498626622965,Transport,Income,Credit Card,Electricity bill
+2024-03-03,387.7041827582998,Groceries,Expense,Cash,Movie tickets
+2024-03-04,-149.08498744792132,Healthcare,Expense,Credit Card,Bus fare
+2024-03-05,-382.93298357239416,Utilities,Expense,Debit Card,Payment for groceries
+2024-03-06,-357.00831794716413,Healthcare,Expense,Cash,Movie tickets
+2024-03-07,261.5106317174723,Transport,Expense,Debit Card,Payment for groceries
+2024-03-08,118.21806331626101,Healthcare,Expense,Online Payment,Payment for groceries
+2024-03-09,-398.87732387720973,Transport,Expense,Cash,Electricity bill
+2024-03-10,-415.8931938850026,Transport,Income,Cash,Electricity bill
+2024-03-11,200.96913145912004,Transport,Income,Cash,Bus fare
+2024-03-12,-427.23699363580647,Transport,Income,Cash,Doctor visit
+2024-03-13,321.86005929035616,Transport,Expense,Online Payment,Payment for groceries
+2024-03-14,206.24222715649626,Utilities,Expense,Cash,Doctor visit
+2024-03-15,-418.6512193581002,Groceries,Expense,Credit Card,Bus fare
+2024-03-16,-415.1622859148081,Entertainment,Expense,Cash,Payment for groceries
+2024-03-17,486.6395785011755,Groceries,Expense,Online Payment,Payment for groceries
+2024-03-18,-125.72920424387968,Transport,Expense,Cash,Doctor visit
+2024-03-19,-129.3578529331091,Utilities,Expense,Credit Card,Movie tickets
+2024-03-20,312.79956725750253,Healthcare,Income,Online Payment,Electricity bill
+2024-03-21,447.2485773838587,Utilities,Expense,Online Payment,Movie tickets
+2024-03-22,486.00106382287095,Transport,Income,Credit Card,Doctor visit
+2024-03-23,253.37818525894158,Utilities,Income,Credit Card,Electricity bill
+2024-03-24,-123.74041446908421,Utilities,Expense,Credit Card,Movie tickets
+2024-03-25,-416.4992833013312,Transport,Expense,Credit Card,Electricity bill
+2024-03-26,277.1469159274368,Utilities,Income,Credit Card,Payment for groceries
+2024-03-27,58.404249735805024,Entertainment,Income,Online Payment,Movie tickets
+2024-03-28,-75.77799075302374,Entertainment,Expense,Online Payment,Electricity bill
+2024-03-29,406.354385094736,Utilities,Expense,Cash,Electricity bill
+2024-03-30,-388.80251769384864,Healthcare,Income,Cash,Electricity bill
+2024-03-31,-7.374895709140844,Transport,Expense,Debit Card,Movie tickets
+2024-04-01,-488.64635523258096,Entertainment,Expense,Cash,Bus fare
+2024-04-02,-31.33935800587375,Healthcare,Expense,Cash,Movie tickets
+2024-04-03,-443.69672431816264,Utilities,Income,Credit Card,Doctor visit
+2024-04-04,-381.18208373192806,Healthcare,Income,Credit Card,Movie tickets
+2024-04-05,-382.4737532228951,Groceries,Income,Cash,Electricity bill
+2024-04-06,149.21030211606353,Entertainment,Expense,Debit Card,Payment for groceries
+2024-04-07,246.04487926542333,Utilities,Expense,Credit Card,Movie tickets
+2024-04-08,83.36876509715967,Transport,Income,Cash,Movie tickets
+2024-04-09,462.17254847454194,Utilities,Income,Cash,Electricity bill
+2024-04-10,-125.12942047629593,Transport,Income,Online Payment,Payment for groceries
+2024-04-11,-214.2879137181393,Utilities,Expense,Debit Card,Payment for groceries
+2024-04-12,368.5991281894603,Healthcare,Income,Online Payment,Doctor visit
+2024-04-13,-276.4041614805474,Healthcare,Income,Debit Card,Movie tickets
+2024-04-14,463.2225394406113,Healthcare,Expense,Credit Card,Payment for groceries
+2024-04-15,-487.84552531018363,Groceries,Expense,Debit Card,Payment for groceries
+2024-04-16,469.87882670763906,Transport,Expense,Cash,Bus fare
+2024-04-17,-456.8400880494239,Healthcare,Income,Cash,Bus fare
+2024-04-18,391.14311369807103,Groceries,Expense,Debit Card,Payment for groceries
+2024-04-19,27.70110908629988,Transport,Expense,Debit Card,Doctor visit
+2024-04-20,492.96479611930033,Utilities,Income,Debit Card,Payment for groceries
+2024-04-21,-426.2034352646011,Groceries,Expense,Online Payment,Electricity bill
+2024-04-22,53.8542844013208,Entertainment,Income,Debit Card,Movie tickets
+2024-04-23,469.302535619099,Groceries,Income,Credit Card,Doctor visit
+2024-04-24,23.097844170148846,Groceries,Expense,Online Payment,Electricity bill
+2024-04-25,129.39863813526256,Transport,Expense,Online Payment,Doctor visit
+2024-04-26,195.74868898461716,Utilities,Expense,Debit Card,Electricity bill
+2024-04-27,-45.45893523222679,Entertainment,Expense,Credit Card,Movie tickets
+2024-04-28,127.55808008406348,Healthcare,Expense,Online Payment,Movie tickets
+2024-04-29,84.31431192310026,Healthcare,Expense,Cash,Bus fare
+2024-04-30,401.158010490989,Groceries,Income,Online Payment,Electricity bill
+2024-05-01,-454.5536196585421,Transport,Income,Debit Card,Bus fare
+2024-05-02,-219.03681040776968,Transport,Expense,Credit Card,Electricity bill
+2024-05-03,450.41148407655874,Healthcare,Income,Debit Card,Bus fare
+2024-05-04,390.26378389091633,Entertainment,Expense,Cash,Movie tickets
+2024-05-05,-44.34324721428709,Utilities,Income,Cash,Doctor visit
+2024-05-06,120.13259780153669,Entertainment,Income,Cash,Bus fare
+2024-05-07,-222.61881701886733,Utilities,Income,Debit Card,Electricity bill
+2024-05-08,-311.8788402762387,Healthcare,Expense,Online Payment,Electricity bill
+2024-05-09,-36.30159506001786,Utilities,Income,Debit Card,Movie tickets
+2024-05-10,-146.64777197394716,Transport,Expense,Credit Card,Electricity bill
+2024-05-11,83.6561118508721,Groceries,Income,Online Payment,Payment for groceries
+2024-05-12,-422.2653630350152,Groceries,Income,Cash,Doctor visit
+2024-05-13,474.39480766616646,Healthcare,Income,Debit Card,Bus fare
+2024-05-14,486.2107444796029,Transport,Income,Cash,Doctor visit
+2024-05-15,198.1617140197451,Entertainment,Income,Cash,Movie tickets
+2024-05-16,36.09636634412038,Transport,Expense,Credit Card,Bus fare
+2024-05-17,-190.47238371367223,Groceries,Expense,Online Payment,Bus fare
+2024-05-18,313.79501970694866,Groceries,Income,Credit Card,Payment for groceries
+2024-05-19,184.73117255387922,Transport,Income,Credit Card,Movie tickets
+2024-05-20,-337.3830606551087,Transport,Income,Credit Card,Electricity bill
+2024-05-21,410.92718449384245,Groceries,Income,Cash,Payment for groceries
+2024-05-22,322.53724292316895,Entertainment,Expense,Credit Card,Payment for groceries
+2024-05-23,449.799913291924,Healthcare,Income,Credit Card,Doctor visit
+2024-05-24,225.71950838835994,Healthcare,Expense,Online Payment,Doctor visit
+2024-05-25,113.41519593578982,Transport,Income,Online Payment,Doctor visit
+2024-05-26,-81.75696370938113,Healthcare,Expense,Credit Card,Payment for groceries
+2024-05-27,432.7284833540133,Groceries,Income,Online Payment,Electricity bill
+2024-05-28,366.0638895004083,Groceries,Income,Online Payment,Bus fare
+2024-05-29,-454.7813298938106,Transport,Expense,Credit Card,Doctor visit
+2024-05-30,-473.633025502748,Transport,Income,Cash,Electricity bill
+2024-05-31,-123.53663312195039,Transport,Income,Credit Card,Movie tickets
+2024-06-01,310.55333078183287,Entertainment,Income,Online Payment,Doctor visit
+2024-06-02,487.27612931494446,Healthcare,Expense,Cash,Bus fare
+2024-06-03,-349.5831088964718,Transport,Income,Debit Card,Movie tickets
+2024-06-04,94.1307153521351,Utilities,Income,Cash,Movie tickets
+2024-06-05,-119.1091433689785,Utilities,Expense,Online Payment,Bus fare
+2024-06-06,469.91439781460315,Groceries,Expense,Cash,Doctor visit
+2024-06-07,342.11892313570866,Healthcare,Expense,Credit Card,Payment for groceries
+2024-06-08,338.3287047111379,Transport,Income,Debit Card,Bus fare
+2024-06-09,-31.306840205029744,Utilities,Income,Debit Card,Bus fare
+2024-06-10,-85.1804976623348,Healthcare,Income,Debit Card,Bus fare
+2024-06-11,-226.59292806929375,Groceries,Expense,Online Payment,Movie tickets
+2024-06-12,-443.6245033490729,Entertainment,Income,Online Payment,Electricity bill
+2024-06-13,364.7223762550532,Healthcare,Income,Debit Card,Payment for groceries
+2024-06-14,312.90100913007757,Healthcare,Expense,Cash,Doctor visit
+2024-06-15,499.71767328613055,Entertainment,Expense,Debit Card,Doctor visit
+2024-06-16,496.6368370739053,Healthcare,Expense,Cash,Electricity bill
+2024-06-17,55.4317056026274,Groceries,Expense,Cash,Bus fare
+2024-06-18,268.98741518051054,Groceries,Expense,Online Payment,Payment for groceries
+2024-06-19,444.765729882428,Entertainment,Income,Cash,Doctor visit
+2024-06-20,349.6473906774114,Transport,Expense,Debit Card,Doctor visit
+2024-06-21,-252.65189825680235,Utilities,Income,Online Payment,Bus fare
+2024-06-22,-49.45586468990649,Transport,Income,Credit Card,Electricity bill
+2024-06-23,-370.84058484850505,Healthcare,Expense,Credit Card,Payment for groceries
+2024-06-24,454.05102725872234,Utilities,Expense,Online Payment,Electricity bill
+2024-06-25,106.17463445088003,Entertainment,Expense,Debit Card,Electricity bill
+2024-06-26,-271.3571944965373,Entertainment,Income,Credit Card,Payment for groceries
+2024-06-27,171.7006844058567,Utilities,Expense,Credit Card,Payment for groceries
+2024-06-28,118.1282404578958,Groceries,Expense,Cash,Doctor visit
+2024-06-29,-141.83728196715953,Utilities,Expense,Cash,Doctor visit
+2024-06-30,-386.442407800371,Healthcare,Expense,Debit Card,Payment for groceries
+2024-07-01,171.5731955927996,Groceries,Expense,Online Payment,Movie tickets
+2024-07-02,20.30770090379326,Entertainment,Income,Debit Card,Doctor visit
+2024-07-03,272.31839173563935,Utilities,Income,Online Payment,Movie tickets
+2024-07-04,20.163501111993355,Transport,Income,Credit Card,Payment for groceries
+2024-07-05,352.1815003185401,Transport,Expense,Cash,Doctor visit
+2024-07-06,51.90683877448555,Healthcare,Expense,Debit Card,Electricity bill
+2024-07-07,60.93797153538628,Transport,Expense,Debit Card,Payment for groceries
+2024-07-08,376.653602658345,Utilities,Income,Online Payment,Bus fare
+2024-07-09,-96.51713378760297,Utilities,Expense,Online Payment,Movie tickets
+2024-07-10,-365.98477154935927,Transport,Expense,Debit Card,Payment for groceries
+2024-07-11,-471.217323686661,Utilities,Expense,Online Payment,Payment for groceries
+2024-07-12,255.13725567361905,Healthcare,Income,Debit Card,Doctor visit
+2024-07-13,120.30955135346471,Groceries,Expense,Debit Card,Doctor visit
+2024-07-14,204.07976809922354,Healthcare,Income,Debit Card,Doctor visit
+2024-07-15,-287.0358384910893,Healthcare,Expense,Credit Card,Bus fare
+2024-07-16,-363.62852441323025,Utilities,Income,Online Payment,Doctor visit
+2024-07-17,-485.45533433211807,Groceries,Income,Cash,Payment for groceries
+2024-07-18,-149.41244119340303,Utilities,Income,Cash,Doctor visit
+2024-07-19,89.91768685463308,Entertainment,Expense,Online Payment,Electricity bill
+2024-07-20,-107.75595490026768,Utilities,Expense,Debit Card,Doctor visit
+2024-07-21,-62.52507797627095,Utilities,Income,Cash,Bus fare
+2024-07-22,404.1586944937484,Utilities,Income,Cash,Electricity bill
+2024-07-23,-151.74453297669965,Groceries,Expense,Online Payment,Payment for groceries
+2024-07-24,13.989489159810773,Utilities,Expense,Cash,Payment for groceries
+2024-07-25,283.65301274114313,Groceries,Income,Debit Card,Movie tickets
+2024-07-26,-103.45721767872982,Transport,Expense,Online Payment,Electricity bill
+2024-07-27,122.08670022787351,Entertainment,Expense,Debit Card,Movie tickets
+2024-07-28,362.36370874674515,Groceries,Expense,Cash,Electricity bill
+2024-07-29,449.5206236576421,Transport,Expense,Cash,Electricity bill
+2024-07-30,-352.92651907096206,Groceries,Income,Debit Card,Bus fare
+2024-07-31,426.58762516149443,Groceries,Expense,Credit Card,Movie tickets
+2024-08-01,-7.883706920461805,Entertainment,Expense,Cash,Bus fare
+2024-08-02,-241.75561170104163,Healthcare,Income,Credit Card,Electricity bill
+2024-08-03,-40.86424376173869,Healthcare,Income,Cash,Payment for groceries
+2024-08-04,480.03257528547704,Groceries,Expense,Credit Card,Electricity bill
+2024-08-05,-7.381906007130397,Utilities,Expense,Credit Card,Bus fare
+2024-08-06,-171.24838971249181,Transport,Expense,Credit Card,Movie tickets
+2024-08-07,133.40085431672583,Utilities,Expense,Debit Card,Movie tickets
+2024-08-08,-259.85438122180693,Utilities,Income,Credit Card,Bus fare
+2024-08-09,-424.13667189133605,Groceries,Income,Credit Card,Movie tickets
+2024-08-10,-371.1202780893508,Groceries,Income,Credit Card,Doctor visit
+2024-08-11,-371.95416104222755,Groceries,Expense,Cash,Payment for groceries
+2024-08-12,-348.0973064877056,Groceries,Expense,Credit Card,Payment for groceries
+2024-08-13,-361.17282735058984,Healthcare,Expense,Cash,Payment for groceries
+2024-08-14,140.87474480321464,Groceries,Expense,Credit Card,Movie tickets
+2024-08-15,-318.11991560085517,Healthcare,Income,Credit Card,Movie tickets
+2024-08-16,-154.33271667613678,Healthcare,Income,Debit Card,Electricity bill
+2024-08-17,396.7884099060118,Groceries,Expense,Cash,Electricity bill
+2024-08-18,-26.03835973712762,Entertainment,Income,Credit Card,Payment for groceries
+2024-08-19,167.5577385210272,Transport,Expense,Cash,Doctor visit
+2024-08-20,-327.68012879837016,Utilities,Expense,Cash,Electricity bill
+2024-08-21,-307.7109811913292,Healthcare,Income,Online Payment,Electricity bill
+2024-08-22,-459.13138373352115,Transport,Expense,Debit Card,Movie tickets
+2024-08-23,-331.06493692783545,Entertainment,Expense,Debit Card,Doctor visit
+2024-08-24,-221.40966096804135,Utilities,Income,Debit Card,Payment for groceries
+2024-08-25,-322.9895157232532,Utilities,Expense,Online Payment,Electricity bill
+2024-08-26,-411.2974662429444,Healthcare,Expense,Online Payment,Doctor visit
+2024-08-27,-379.3641288993992,Groceries,Income,Debit Card,Doctor visit
+2024-08-28,-39.22123196727421,Entertainment,Expense,Online Payment,Payment for groceries
+2024-08-29,-293.6662815942075,Healthcare,Income,Online Payment,Doctor visit
+2024-08-30,-135.73013895192452,Entertainment,Expense,Online Payment,Doctor visit
+2024-08-31,3.417270854856895,Groceries,Income,Debit Card,Doctor visit
+2024-09-01,190.3948286293653,Groceries,Income,Debit Card,Electricity bill
+2024-09-02,-460.68786015890106,Healthcare,Income,Debit Card,Payment for groceries
+2024-09-03,299.41039890904267,Groceries,Expense,Online Payment,Doctor visit
+2024-09-04,127.90038949090774,Transport,Income,Debit Card,Doctor visit
+2024-09-05,-418.2409680511281,Utilities,Income,Online Payment,Electricity bill
+2024-09-06,373.57862410677717,Healthcare,Income,Credit Card,Payment for groceries
+2024-09-07,420.8724005318131,Entertainment,Income,Online Payment,Movie tickets
+2024-09-08,-438.92204014513624,Transport,Income,Cash,Electricity bill
+2024-09-09,-223.12235185279627,Healthcare,Expense,Debit Card,Payment for groceries
+2024-09-10,306.2012797930613,Groceries,Expense,Debit Card,Doctor visit
+2024-09-11,248.25969038365838,Groceries,Expense,Cash,Payment for groceries
+2024-09-12,-315.47898064362266,Groceries,Expense,Online Payment,Payment for groceries
+2024-09-13,-290.6506766632897,Groceries,Expense,Credit Card,Payment for groceries
+2024-09-14,-129.52789720861801,Entertainment,Expense,Cash,Movie tickets
+2024-09-15,-15.477014808978652,Transport,Expense,Cash,Payment for groceries
+2024-09-16,118.25477153029601,Utilities,Income,Online Payment,Movie tickets
+2024-09-17,-131.08636043022761,Entertainment,Expense,Debit Card,Doctor visit
+2024-09-18,-37.46528386685213,Entertainment,Income,Online Payment,Movie tickets
+2024-09-19,247.4709381337566,Utilities,Income,Cash,Doctor visit
+2024-09-20,-463.3167971094021,Utilities,Expense,Cash,Doctor visit
+2024-09-21,-247.56305565597924,Groceries,Income,Debit Card,Movie tickets
+2024-09-22,213.34958588455243,Entertainment,Income,Debit Card,Electricity bill
+2024-09-23,395.20683768719937,Healthcare,Income,Debit Card,Bus fare
+2024-09-24,11.67744211566611,Utilities,Income,Online Payment,Payment for groceries
+2024-09-25,32.1134852653156,Utilities,Expense,Debit Card,Bus fare
+2024-09-26,-392.8279886602239,Transport,Expense,Cash,Payment for groceries
+2024-09-27,-52.58763317654535,Healthcare,Expense,Cash,Payment for groceries
+2024-09-28,32.61726645502313,Healthcare,Expense,Credit Card,Doctor visit
+2024-09-29,-257.52949636527035,Utilities,Expense,Online Payment,Payment for groceries
+2024-09-30,-230.75676905061903,Groceries,Expense,Credit Card,Payment for groceries
+2024-10-01,-122.71583689537738,Transport,Expense,Cash,Movie tickets
+2024-10-02,-479.92880222227365,Healthcare,Expense,Credit Card,Bus fare
+2024-10-03,-177.92083441682172,Utilities,Expense,Cash,Movie tickets
+2024-10-04,-288.5519930034553,Healthcare,Expense,Credit Card,Payment for groceries
+2024-10-05,-172.50264782208535,Transport,Income,Debit Card,Doctor visit
+2024-10-06,-380.2378681807488,Transport,Expense,Credit Card,Movie tickets
+2024-10-07,390.527280739895,Entertainment,Income,Debit Card,Movie tickets
+2024-10-08,93.59245355404869,Utilities,Income,Debit Card,Electricity bill
+2024-10-09,179.10231914448957,Transport,Income,Online Payment,Payment for groceries
+2024-10-10,289.1712386073383,Entertainment,Income,Debit Card,Doctor visit
+2024-10-11,-1.5578010709427303,Entertainment,Expense,Debit Card,Movie tickets
+2024-10-12,-413.07971191257633,Healthcare,Income,Credit Card,Movie tickets
+2024-10-13,37.106541818547726,Healthcare,Expense,Cash,Doctor visit
+2024-10-14,86.8411180208791,Entertainment,Expense,Online Payment,Payment for groceries
+2024-10-15,245.43947418433004,Healthcare,Income,Debit Card,Electricity bill
+2024-10-16,-68.34045377032061,Transport,Expense,Online Payment,Movie tickets
+2024-10-17,-372.41969720443626,Groceries,Income,Credit Card,Electricity bill
+2024-10-18,-216.22409420127553,Transport,Income,Debit Card,Bus fare
+2024-10-19,-136.9177036013649,Entertainment,Expense,Credit Card,Payment for groceries
+2024-10-20,145.9172413316012,Entertainment,Expense,Online Payment,Bus fare
+2024-10-21,70.77830466891191,Transport,Income,Credit Card,Bus fare
+2024-10-22,-143.90327410215377,Healthcare,Expense,Online Payment,Bus fare
+2024-10-23,486.5152487929797,Healthcare,Expense,Credit Card,Payment for groceries
+2024-10-24,105.77481935688718,Entertainment,Expense,Online Payment,Payment for groceries
+2024-10-25,-262.7732082640055,Utilities,Income,Cash,Doctor visit
+2024-10-26,-398.2175273795963,Healthcare,Income,Credit Card,Electricity bill
+2024-10-27,-347.14086081566796,Transport,Expense,Credit Card,Electricity bill
+2024-10-28,-254.04227161549187,Healthcare,Expense,Cash,Doctor visit
+2024-10-29,-339.3186267404443,Transport,Expense,Cash,Doctor visit
+2024-10-30,-313.4329759486942,Entertainment,Expense,Credit Card,Bus fare
+2024-10-31,-214.90483130615291,Healthcare,Expense,Cash,Doctor visit
+2024-11-01,-326.62640470524514,Transport,Income,Debit Card,Movie tickets
+2024-11-02,396.7654246264252,Entertainment,Expense,Online Payment,Electricity bill
+2024-11-03,-419.7662543383578,Utilities,Income,Online Payment,Doctor visit
+2024-11-04,24.511389570254664,Transport,Expense,Online Payment,Movie tickets
+2024-11-05,-89.60317301033848,Utilities,Income,Debit Card,Movie tickets
+2024-11-06,482.37861690860643,Utilities,Expense,Cash,Movie tickets
+2024-11-07,-387.96109783194765,Groceries,Income,Cash,Movie tickets
+2024-11-08,-102.14440095425834,Healthcare,Expense,Credit Card,Bus fare
+2024-11-09,469.4704332753688,Transport,Income,Cash,Movie tickets
+2024-11-10,365.5071258939803,Utilities,Income,Credit Card,Bus fare
+2024-11-11,317.0720709492799,Groceries,Income,Debit Card,Bus fare
+2024-11-12,-242.09717295506016,Entertainment,Income,Online Payment,Movie tickets
+2024-11-13,-329.11241260993415,Transport,Income,Online Payment,Electricity bill
+2024-11-14,168.64321992443104,Utilities,Income,Online Payment,Movie tickets
+2024-11-15,429.37598912758574,Healthcare,Expense,Cash,Movie tickets
+2024-11-16,56.762893013929784,Groceries,Income,Credit Card,Movie tickets
+2024-11-17,71.6126894698998,Utilities,Expense,Credit Card,Electricity bill
+2024-11-18,-220.02090633971585,Healthcare,Expense,Debit Card,Payment for groceries
+2024-11-19,269.4929331919369,Utilities,Expense,Cash,Payment for groceries
+2024-11-20,-312.9562514424766,Transport,Expense,Debit Card,Bus fare
+2024-11-21,-176.32076359575632,Transport,Expense,Credit Card,Bus fare
+2024-11-22,-74.56356138358325,Transport,Income,Credit Card,Electricity bill
+2024-11-23,7.610378684455043,Groceries,Income,Online Payment,Doctor visit
+2024-11-24,-257.59026758491973,Transport,Income,Cash,Payment for groceries
+2024-11-25,-385.1631752607965,Healthcare,Expense,Credit Card,Bus fare
+2024-11-26,110.62004244163256,Utilities,Income,Online Payment,Payment for groceries
+2024-11-27,-211.36944675974422,Entertainment,Income,Cash,Electricity bill
+2024-11-28,81.23822142261224,Healthcare,Income,Debit Card,Electricity bill
+2024-11-29,-345.6372847257977,Healthcare,Income,Cash,Doctor visit
+2024-11-30,-18.859898145182513,Transport,Income,Cash,Doctor visit
+2024-12-01,32.5894325515859,Groceries,Expense,Credit Card,Electricity bill
+2024-12-02,-448.1764631775731,Utilities,Income,Credit Card,Bus fare
+2024-12-03,-163.3957218060794,Groceries,Expense,Cash,Payment for groceries
+2024-12-04,-365.58532306102575,Utilities,Expense,Credit Card,Movie tickets
+2024-12-05,-436.62502952723224,Utilities,Expense,Credit Card,Doctor visit
+2024-12-06,489.9602323899452,Groceries,Expense,Credit Card,Movie tickets
+2024-12-07,-177.64615502527704,Healthcare,Expense,Online Payment,Bus fare
+2024-12-08,309.8744458546348,Utilities,Income,Online Payment,Doctor visit
+2024-12-09,-245.35934523623615,Groceries,Income,Cash,Movie tickets
+2024-12-10,181.50272222392925,Utilities,Income,Credit Card,Bus fare
+2024-12-11,260.22785988968656,Entertainment,Expense,Online Payment,Payment for groceries
+2024-12-12,95.63874060784428,Healthcare,Income,Cash,Bus fare
+2024-12-13,-28.42381144984165,Transport,Income,Credit Card,Doctor visit
+2024-12-14,-88.1590858527315,Utilities,Expense,Debit Card,Electricity bill
+2024-12-15,-151.1317334570047,Entertainment,Expense,Credit Card,Payment for groceries
+2024-12-16,429.5291442478258,Transport,Expense,Credit Card,Movie tickets
+2024-12-17,330.6194077877292,Transport,Expense,Online Payment,Doctor visit
+2024-12-18,465.02691066651255,Utilities,Income,Cash,Electricity bill
+2024-12-19,-375.70277651445525,Groceries,Expense,Cash,Bus fare
+2024-12-20,230.8674752036443,Utilities,Expense,Online Payment,Electricity bill
+2024-12-21,438.34045682103783,Entertainment,Income,Credit Card,Doctor visit
+2024-12-22,-318.76693383433985,Transport,Income,Debit Card,Doctor visit
+2024-12-23,-433.5037326332225,Utilities,Expense,Credit Card,Electricity bill
+2024-12-24,241.12064929005908,Groceries,Income,Credit Card,Bus fare
+2024-12-25,74.47311317991193,Utilities,Expense,Debit Card,Electricity bill
+2024-12-26,341.82877675827206,Healthcare,Expense,Online Payment,Doctor visit
+2024-12-27,-360.2276233737105,Groceries,Income,Cash,Doctor visit
+2024-12-28,295.26731185989024,Entertainment,Income,Online Payment,Movie tickets
+2024-12-29,-298.37267995225545,Transport,Expense,Online Payment,Movie tickets
+2024-12-30,-336.3440571342955,Utilities,Expense,Credit Card,Payment for groceries
+2024-12-31,-335.7342020690071,Groceries,Expense,Cash,Doctor visit
+2025-01-01,314.5747202313821,Healthcare,Income,Cash,Movie tickets
+2025-01-02,165.19722069620013,Groceries,Expense,Online Payment,Electricity bill
+2025-01-03,23.065424769119318,Healthcare,Expense,Debit Card,Bus fare
+2025-01-04,-141.16951587649748,Entertainment,Expense,Online Payment,Electricity bill
+2025-01-05,377.2005408131083,Transport,Expense,Debit Card,Bus fare
+2025-01-06,-107.55489257736463,Entertainment,Expense,Cash,Movie tickets
+2025-01-07,316.59943947157706,Utilities,Income,Online Payment,Payment for groceries
+2025-01-08,-60.86509142978156,Groceries,Expense,Credit Card,Electricity bill
+2025-01-09,-123.05557057509242,Healthcare,Expense,Online Payment,Electricity bill
+2025-01-10,-37.32021433039358,Healthcare,Expense,Cash,Electricity bill
+2025-01-11,-198.6221258358579,Groceries,Expense,Credit Card,Bus fare
+2025-01-12,247.60938017625108,Groceries,Income,Credit Card,Movie tickets
+2025-01-13,2.7203900924791355,Utilities,Income,Debit Card,Electricity bill
+2025-01-14,-267.7873048531827,Entertainment,Income,Credit Card,Electricity bill
+2025-01-15,399.5745732745685,Healthcare,Expense,Credit Card,Payment for groceries
+2025-01-16,-116.10877862678859,Utilities,Expense,Online Payment,Payment for groceries
+2025-01-17,43.55286111398857,Entertainment,Income,Cash,Movie tickets
+2025-01-18,406.4721109645469,Utilities,Income,Debit Card,Movie tickets
+2025-01-19,124.23799591399211,Healthcare,Income,Online Payment,Doctor visit
+2025-01-20,-383.1019592916359,Groceries,Expense,Credit Card,Payment for groceries
+2025-01-21,439.8321236134751,Groceries,Expense,Credit Card,Doctor visit
+2025-01-22,127.70805307141791,Entertainment,Income,Debit Card,Bus fare
+2025-01-23,-165.09438534291388,Transport,Income,Cash,Doctor visit
+2025-01-24,-360.72792733661277,Entertainment,Income,Debit Card,Electricity bill
+2025-01-25,294.025189270296,Transport,Expense,Online Payment,Doctor visit
+2025-01-26,120.07275592851352,Utilities,Expense,Debit Card,Movie tickets
+2025-01-27,33.46109197632154,Utilities,Expense,Credit Card,Bus fare
+2025-01-28,393.8925830509577,Healthcare,Income,Online Payment,Electricity bill
+2025-01-29,288.5972112245307,Transport,Income,Credit Card,Doctor visit
+2025-01-30,-348.32512026724885,Healthcare,Expense,Cash,Bus fare
+2025-01-31,-188.27793220445176,Groceries,Income,Credit Card,Bus fare
+2025-02-01,-251.51086018553426,Transport,Expense,Credit Card,Electricity bill
+2025-02-02,243.94629257267695,Entertainment,Income,Debit Card,Doctor visit
+2025-02-03,-466.46756526422064,Groceries,Income,Credit Card,Bus fare
+2025-02-04,69.88968487131649,Groceries,Income,Online Payment,Bus fare
+2025-02-05,262.4586857406905,Entertainment,Income,Online Payment,Payment for groceries
+2025-02-06,376.7656367617494,Groceries,Expense,Cash,Bus fare
+2025-02-07,-157.91825128409255,Transport,Income,Online Payment,Payment for groceries
+2025-02-08,321.2573046720129,Healthcare,Expense,Debit Card,Doctor visit
+2025-02-09,-389.3682630447928,Groceries,Expense,Cash,Doctor visit
+2025-02-10,346.4522917345182,Transport,Expense,Online Payment,Doctor visit
+2025-02-11,-372.5113376680176,Utilities,Income,Debit Card,Movie tickets
+2025-02-12,-102.7127094396327,Transport,Expense,Online Payment,Doctor visit
+2025-02-13,297.29536577955366,Healthcare,Expense,Online Payment,Bus fare
+2025-02-14,-350.0825726512262,Transport,Expense,Credit Card,Electricity bill
+2025-02-15,-270.74860476735853,Entertainment,Income,Online Payment,Payment for groceries
+2025-02-16,222.25256839306633,Healthcare,Income,Online Payment,Movie tickets
+2025-02-17,220.03653654607433,Utilities,Expense,Debit Card,Doctor visit
+2025-02-18,141.1476328852973,Entertainment,Income,Debit Card,Doctor visit
+2025-02-19,193.9484444671,Transport,Expense,Credit Card,Electricity bill
+2025-02-20,42.72444334759621,Healthcare,Expense,Online Payment,Electricity bill
+2025-02-21,-248.20094109304725,Utilities,Income,Credit Card,Movie tickets
+2025-02-22,-154.30400649608055,Entertainment,Expense,Online Payment,Payment for groceries
+2025-02-23,-318.4022831985743,Utilities,Income,Cash,Doctor visit
+2025-02-24,408.45056133362834,Transport,Income,Cash,Movie tickets
+2025-02-25,83.39179476612048,Utilities,Expense,Credit Card,Bus fare
+2025-02-26,-99.14858323636008,Groceries,Income,Credit Card,Bus fare
+2025-02-27,-37.9941963558673,Entertainment,Income,Credit Card,Movie tickets
+2025-02-28,447.28333961181534,Utilities,Expense,Debit Card,Doctor visit
+2025-03-01,-346.6485968839198,Transport,Expense,Debit Card,Movie tickets
+2025-03-02,86.22983201679722,Transport,Income,Debit Card,Doctor visit
+2025-03-03,5.888678884466003,Utilities,Income,Credit Card,Electricity bill
+2025-03-04,111.45423543464779,Transport,Expense,Online Payment,Movie tickets
+2025-03-05,-481.8898161791595,Healthcare,Income,Cash,Doctor visit
+2025-03-06,372.1239089441515,Healthcare,Income,Credit Card,Movie tickets
+2025-03-07,432.11828248361235,Healthcare,Income,Debit Card,Movie tickets
+2025-03-08,65.1331835892089,Groceries,Income,Debit Card,Doctor visit
+2025-03-09,196.65082387689222,Utilities,Income,Credit Card,Doctor visit
+2025-03-10,422.49938117729573,Groceries,Income,Credit Card,Payment for groceries
+2025-03-11,207.23863431339862,Transport,Income,Debit Card,Movie tickets
+2025-03-12,-347.46095708573864,Groceries,Expense,Online Payment,Bus fare
+2025-03-13,76.28836016681316,Transport,Expense,Debit Card,Movie tickets
+2025-03-14,106.71504638285592,Transport,Expense,Debit Card,Movie tickets
+2025-03-15,-75.86932869761398,Entertainment,Expense,Credit Card,Doctor visit
+2025-03-16,236.44423562472286,Healthcare,Expense,Online Payment,Movie tickets
+2025-03-17,434.3670147690149,Transport,Income,Debit Card,Movie tickets
+2025-03-18,425.5685129067763,Entertainment,Income,Debit Card,Bus fare
+2025-03-19,-49.16062859586788,Healthcare,Income,Cash,Doctor visit
+2025-03-20,-386.76195415924474,Transport,Income,Credit Card,Movie tickets
+2025-03-21,484.8411989623346,Transport,Expense,Cash,Electricity bill
+2025-03-22,338.89808644593415,Groceries,Income,Cash,Payment for groceries
+2025-03-23,-375.33731879673314,Groceries,Income,Debit Card,Bus fare
+2025-03-24,420.84188261737233,Healthcare,Expense,Credit Card,Movie tickets
+2025-03-25,369.89636206212833,Transport,Income,Online Payment,Electricity bill
+2025-03-26,18.838057126072158,Utilities,Income,Debit Card,Movie tickets
+2025-03-27,91.27543574492927,Groceries,Expense,Online Payment,Movie tickets
+2025-03-28,-100.99729612986977,Healthcare,Income,Online Payment,Doctor visit
+2025-03-29,-445.23836117796867,Transport,Income,Credit Card,Doctor visit
+2025-03-30,-164.80275835409907,Transport,Income,Cash,Doctor visit
+2025-03-31,302.8534485980115,Utilities,Income,Credit Card,Electricity bill
+2025-04-01,-495.36797699539716,Healthcare,Income,Online Payment,Movie tickets
+2025-04-02,-166.50082830885583,Transport,Expense,Debit Card,Payment for groceries
+2025-04-03,-101.83130640905671,Groceries,Expense,Online Payment,Bus fare
+2025-04-04,37.39560293792283,Utilities,Expense,Debit Card,Doctor visit
+2025-04-05,419.85561641276047,Healthcare,Expense,Debit Card,Doctor visit
+2025-04-06,-153.65400563403875,Utilities,Expense,Credit Card,Movie tickets
+2025-04-07,-153.0467981037723,Groceries,Expense,Online Payment,Movie tickets
+2025-04-08,237.50124810974842,Healthcare,Income,Cash,Electricity bill
+2025-04-09,-47.78205911019285,Utilities,Expense,Online Payment,Electricity bill
+2025-04-10,-275.395177060018,Entertainment,Expense,Online Payment,Doctor visit
+2025-04-11,-47.56048386730663,Groceries,Income,Cash,Movie tickets
+2025-04-12,-359.14297962020015,Groceries,Income,Credit Card,Payment for groceries
+2025-04-13,-323.6130134937767,Groceries,Expense,Online Payment,Bus fare
+2025-04-14,-1.632227260520267,Entertainment,Income,Online Payment,Movie tickets
+2025-04-15,-81.07455049545212,Entertainment,Expense,Debit Card,Movie tickets
+2025-04-16,414.84590106810003,Transport,Income,Online Payment,Electricity bill
+2025-04-17,-137.60610088336688,Utilities,Expense,Cash,Bus fare
+2025-04-18,80.58835027804344,Transport,Income,Debit Card,Doctor visit
+2025-04-19,132.26428791953037,Utilities,Income,Credit Card,Movie tickets
+2025-04-20,-486.9055434116664,Entertainment,Expense,Debit Card,Doctor visit
+2025-04-21,163.5373720167106,Entertainment,Expense,Cash,Movie tickets
+2025-04-22,-321.9640331302486,Transport,Expense,Cash,Doctor visit
+2025-04-23,461.0703174694552,Healthcare,Expense,Debit Card,Bus fare
+2025-04-24,-351.33727224688704,Transport,Expense,Credit Card,Electricity bill
+2025-04-25,-85.37587627297626,Utilities,Income,Debit Card,Bus fare
+2025-04-26,-414.65033192135616,Transport,Expense,Credit Card,Payment for groceries
+2025-04-27,496.87425184594736,Groceries,Expense,Debit Card,Electricity bill
+2025-04-28,2.1950103312425995,Utilities,Income,Cash,Bus fare
+2025-04-29,95.38501732004374,Utilities,Income,Online Payment,Payment for groceries
+2025-04-30,-432.92352261157254,Healthcare,Expense,Online Payment,Movie tickets
+2025-05-01,249.96047039917778,Entertainment,Income,Credit Card,Movie tickets
+2025-05-02,-290.0944069044142,Utilities,Income,Credit Card,Doctor visit
+2025-05-03,398.0542894407138,Entertainment,Expense,Credit Card,Electricity bill
+2025-05-04,-294.86035951799283,Transport,Income,Cash,Movie tickets
+2025-05-05,-309.3122793363334,Groceries,Income,Debit Card,Electricity bill
+2025-05-06,-463.4503321519051,Healthcare,Expense,Cash,Movie tickets
+2025-05-07,-27.933054890000733,Entertainment,Expense,Online Payment,Doctor visit
+2025-05-08,64.84113326261638,Utilities,Income,Credit Card,Bus fare
+2025-05-09,-434.2913605716476,Entertainment,Income,Debit Card,Doctor visit
+2025-05-10,275.5276166950106,Utilities,Expense,Online Payment,Payment for groceries
+2025-05-11,-46.711165251972375,Entertainment,Income,Online Payment,Movie tickets
+2025-05-12,24.390269327580086,Utilities,Income,Online Payment,Payment for groceries
+2025-05-13,-59.23725306177187,Transport,Income,Cash,Payment for groceries
+2025-05-14,-99.236939124674,Utilities,Expense,Credit Card,Electricity bill
+2025-05-15,59.640331308217924,Utilities,Income,Online Payment,Movie tickets
+2025-05-16,-344.7597540692875,Groceries,Income,Credit Card,Payment for groceries
+2025-05-17,-318.07186950472885,Utilities,Expense,Cash,Bus fare
+2025-05-18,361.78562101351736,Groceries,Income,Online Payment,Payment for groceries
+2025-05-19,446.1154621336327,Healthcare,Income,Cash,Bus fare
+2025-05-20,-126.69068372024708,Groceries,Expense,Cash,Electricity bill
+2025-05-21,-229.25532685644623,Transport,Expense,Credit Card,Payment for groceries
+2025-05-22,143.9995432390158,Groceries,Expense,Online Payment,Doctor visit
+2025-05-23,-91.2658289019036,Healthcare,Expense,Cash,Electricity bill
+2025-05-24,-474.61364433965514,Transport,Income,Online Payment,Bus fare
+2025-05-25,-343.8474026338097,Entertainment,Income,Credit Card,Electricity bill
+2025-05-26,215.97222884739756,Entertainment,Expense,Cash,Payment for groceries
+2025-05-27,158.92394191015137,Groceries,Expense,Credit Card,Movie tickets
+2025-05-28,-472.9040074965165,Groceries,Income,Online Payment,Movie tickets
+2025-05-29,-278.02783806705054,Healthcare,Expense,Online Payment,Bus fare
+2025-05-30,-268.9252034119286,Healthcare,Income,Credit Card,Bus fare
+2025-05-31,171.89274359872843,Utilities,Expense,Debit Card,Movie tickets
+2025-06-01,-480.28946224563583,Healthcare,Income,Cash,Bus fare
+2025-06-02,-395.89141801542615,Utilities,Expense,Online Payment,Electricity bill
+2025-06-03,299.9160853731894,Transport,Expense,Online Payment,Doctor visit
+2025-06-04,-321.4553379456664,Groceries,Income,Cash,Doctor visit
+2025-06-05,152.74610785187474,Transport,Expense,Credit Card,Electricity bill
+2025-06-06,-261.8172189532735,Healthcare,Income,Credit Card,Doctor visit
+2025-06-07,-400.55860724065485,Transport,Income,Credit Card,Payment for groceries
+2025-06-08,-256.8278090005459,Transport,Income,Debit Card,Electricity bill
+2025-06-09,222.2669318556592,Transport,Income,Debit Card,Bus fare
+2025-06-10,355.6964681062857,Healthcare,Income,Online Payment,Electricity bill
+2025-06-11,330.21986456699165,Transport,Expense,Credit Card,Movie tickets
+2025-06-12,-102.81647038154517,Utilities,Expense,Cash,Bus fare
+2025-06-13,168.0851365706461,Healthcare,Income,Online Payment,Movie tickets
+2025-06-14,-295.01570458417905,Transport,Expense,Cash,Bus fare
+2025-06-15,-206.85226973898676,Healthcare,Income,Online Payment,Doctor visit
+2025-06-16,396.3358185211198,Entertainment,Expense,Debit Card,Electricity bill
+2025-06-17,-486.99807648926395,Utilities,Expense,Online Payment,Payment for groceries
+2025-06-18,-414.49146914553194,Transport,Expense,Debit Card,Bus fare
+2025-06-19,-292.11374485397266,Entertainment,Expense,Online Payment,Bus fare
+2025-06-20,-473.4677961261803,Entertainment,Income,Credit Card,Movie tickets
+2025-06-21,-318.56456491020265,Healthcare,Income,Cash,Doctor visit
+2025-06-22,83.04156096969223,Entertainment,Expense,Credit Card,Movie tickets
+2025-06-23,-78.57544940750205,Utilities,Expense,Online Payment,Movie tickets
+2025-06-24,392.6717110769748,Utilities,Income,Online Payment,Doctor visit
+2025-06-25,317.44356173844085,Groceries,Expense,Online Payment,Payment for groceries
+2025-06-26,-158.18264830212405,Utilities,Income,Debit Card,Movie tickets
+2025-06-27,-240.5765665687075,Entertainment,Income,Cash,Movie tickets
+2025-06-28,-120.30759183273312,Utilities,Income,Cash,Bus fare
+2025-06-29,90.29494251480776,Healthcare,Expense,Online Payment,Doctor visit
+2025-06-30,-231.93635917712373,Groceries,Income,Online Payment,Electricity bill
+2025-07-01,124.14890784913405,Entertainment,Expense,Debit Card,Payment for groceries
+2025-07-02,-90.58834780875958,Groceries,Income,Credit Card,Payment for groceries
+2025-07-03,52.047180851980215,Entertainment,Expense,Credit Card,Doctor visit
+2025-07-04,-63.87347086468333,Healthcare,Expense,Cash,Bus fare
+2025-07-05,-205.5342404580823,Groceries,Expense,Debit Card,Bus fare
+2025-07-06,448.4533069621567,Transport,Income,Online Payment,Doctor visit
+2025-07-07,263.6057941597609,Entertainment,Income,Cash,Bus fare
+2025-07-08,-359.8868242335475,Transport,Expense,Debit Card,Payment for groceries
+2025-07-09,368.46797589791277,Groceries,Expense,Credit Card,Payment for groceries
+2025-07-10,-12.568801750486386,Transport,Expense,Debit Card,Electricity bill
+2025-07-11,394.5522268940914,Transport,Income,Credit Card,Doctor visit
+2025-07-12,299.8552559473152,Groceries,Income,Debit Card,Movie tickets
+2025-07-13,-74.78649553076656,Healthcare,Income,Cash,Movie tickets
+2025-07-14,-477.5306916798826,Transport,Income,Credit Card,Electricity bill
+2025-07-15,-231.3226406150539,Transport,Expense,Cash,Electricity bill
+2025-07-16,41.634214660866974,Healthcare,Expense,Cash,Bus fare
+2025-07-17,133.47821982614732,Transport,Income,Credit Card,Electricity bill
+2025-07-18,-242.1123145667977,Transport,Income,Credit Card,Electricity bill
+2025-07-19,-360.64392592717587,Transport,Expense,Online Payment,Movie tickets
+2025-07-20,334.9302367992991,Utilities,Income,Online Payment,Bus fare
+2025-07-21,484.4021807035522,Healthcare,Income,Online Payment,Electricity bill
+2025-07-22,25.6901823026858,Transport,Income,Cash,Electricity bill
+2025-07-23,-328.3207141516965,Healthcare,Income,Cash,Bus fare
+2025-07-24,-227.69267348063107,Entertainment,Income,Online Payment,Doctor visit
+2025-07-25,-481.60932345253326,Entertainment,Income,Cash,Bus fare
+2025-07-26,414.298806560499,Transport,Expense,Cash,Movie tickets
+2025-07-27,-382.2489171098589,Healthcare,Income,Credit Card,Doctor visit
+2025-07-28,76.51647551425356,Healthcare,Income,Credit Card,Payment for groceries
+2025-07-29,-225.94477931279403,Healthcare,Expense,Cash,Bus fare
+2025-07-30,54.17800251579342,Utilities,Expense,Online Payment,Movie tickets
+2025-07-31,151.42038835186418,Entertainment,Expense,Debit Card,Doctor visit
+2025-08-01,329.7418037072016,Healthcare,Income,Online Payment,Bus fare
+2025-08-02,-293.5787282393968,Healthcare,Expense,Debit Card,Electricity bill
+2025-08-03,-489.0041713415195,Utilities,Income,Online Payment,Bus fare
+2025-08-04,-363.11436993119275,Utilities,Income,Credit Card,Payment for groceries
+2025-08-05,400.01864184810506,Healthcare,Income,Cash,Bus fare
+2025-08-06,373.8900775625152,Groceries,Expense,Cash,Doctor visit
+2025-08-07,97.41310217030832,Healthcare,Expense,Credit Card,Doctor visit
+2025-08-08,100.51686043365339,Healthcare,Expense,Debit Card,Bus fare
+2025-08-09,165.03667454625543,Utilities,Expense,Debit Card,Doctor visit
+2025-08-10,-324.6287213765504,Utilities,Expense,Debit Card,Electricity bill
+2025-08-11,414.4119459249598,Healthcare,Income,Credit Card,Bus fare
+2025-08-12,-81.22947510792687,Healthcare,Income,Debit Card,Electricity bill
+2025-08-13,-116.86147175050252,Healthcare,Income,Credit Card,Electricity bill
+2025-08-14,18.917705282837574,Utilities,Income,Online Payment,Movie tickets
+2025-08-15,-453.03403322494495,Healthcare,Expense,Online Payment,Bus fare
+2025-08-16,-333.7166312439206,Healthcare,Expense,Credit Card,Doctor visit
+2025-08-17,238.0336164263705,Transport,Income,Cash,Electricity bill
+2025-08-18,-417.20133207487356,Groceries,Expense,Online Payment,Movie tickets
+2025-08-19,103.1521094663882,Entertainment,Expense,Debit Card,Bus fare
+2025-08-20,-254.65089031867905,Groceries,Income,Credit Card,Bus fare
+2025-08-21,-110.70438595802347,Transport,Income,Debit Card,Payment for groceries
+2025-08-22,-211.30626322930016,Entertainment,Expense,Debit Card,Payment for groceries
+2025-08-23,-144.32728353505087,Healthcare,Expense,Cash,Electricity bill
+2025-08-24,219.0459051842455,Transport,Income,Debit Card,Payment for groceries
+2025-08-25,-202.87828437682498,Healthcare,Income,Cash,Electricity bill
+2025-08-26,66.40464029689724,Utilities,Income,Online Payment,Doctor visit
+2025-08-27,-23.949597800900335,Transport,Expense,Credit Card,Electricity bill
+2025-08-28,163.67116536264814,Utilities,Income,Debit Card,Payment for groceries
+2025-08-29,436.82973932475795,Transport,Income,Credit Card,Doctor visit
+2025-08-30,232.57209721025026,Transport,Expense,Debit Card,Payment for groceries
+2025-08-31,-285.0596214092433,Utilities,Expense,Credit Card,Electricity bill
+2025-09-01,-468.8168649387153,Entertainment,Expense,Debit Card,Movie tickets
+2025-09-02,-237.73595570017494,Groceries,Expense,Debit Card,Bus fare
+2025-09-03,95.0779307002548,Healthcare,Expense,Debit Card,Payment for groceries
+2025-09-04,-448.57418651574966,Transport,Income,Debit Card,Electricity bill
+2025-09-05,-3.6337527987636804,Healthcare,Income,Debit Card,Doctor visit
+2025-09-06,96.84284891688924,Utilities,Expense,Debit Card,Payment for groceries
+2025-09-07,-165.7561091830392,Healthcare,Expense,Debit Card,Payment for groceries
+2025-09-08,270.9122037458219,Utilities,Expense,Debit Card,Bus fare
+2025-09-09,-393.4017468662282,Healthcare,Expense,Debit Card,Electricity bill
+2025-09-10,-424.86221826419126,Groceries,Expense,Credit Card,Movie tickets
+2025-09-11,228.18875620360336,Groceries,Income,Cash,Doctor visit
+2025-09-12,-4.508683793801538,Groceries,Income,Debit Card,Electricity bill
+2025-09-13,188.402396427736,Groceries,Income,Cash,Doctor visit
+2025-09-14,-65.17266139625377,Groceries,Income,Debit Card,Payment for groceries
+2025-09-15,-253.5979667608932,Groceries,Expense,Debit Card,Bus fare
+2025-09-16,319.10231767419975,Utilities,Income,Credit Card,Bus fare
+2025-09-17,299.4158789689792,Transport,Expense,Online Payment,Movie tickets
+2025-09-18,194.6964708544267,Healthcare,Expense,Online Payment,Bus fare
+2025-09-19,-227.8548627700373,Groceries,Expense,Credit Card,Payment for groceries
+2025-09-20,90.23066686908714,Utilities,Income,Cash,Movie tickets
+2025-09-21,-139.0261030599732,Utilities,Expense,Online Payment,Electricity bill
+2025-09-22,-408.41792667336586,Utilities,Income,Credit Card,Bus fare
+2025-09-23,417.31357546224274,Transport,Income,Credit Card,Movie tickets
+2025-09-24,-363.1813690810386,Healthcare,Expense,Online Payment,Payment for groceries
+2025-09-25,450.23735382080247,Transport,Expense,Cash,Doctor visit
+2025-09-26,-53.99422704204426,Entertainment,Expense,Credit Card,Doctor visit
