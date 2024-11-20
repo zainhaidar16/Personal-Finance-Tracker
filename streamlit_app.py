@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from PyPDF2 import PdfReader
+import io
 
 # Set page configuration
 st.set_page_config(
@@ -49,22 +51,28 @@ uploaded_file = st.file_uploader(
 )
 
 if uploaded_file:
-    # Load data based on file type
     try:
         if uploaded_file.name.endswith(".csv"):
             data = pd.read_csv(uploaded_file)
         elif uploaded_file.name.endswith(".xlsx"):
             data = pd.read_excel(uploaded_file)
         elif uploaded_file.name.endswith(".pdf"):
-            # Extract tabular data from PDF using pdfplumber
-            with pdfplumber.open(uploaded_file) as pdf:
-                tables = []
-                for page in pdf.pages:
-                    table = page.extract_table()
-                    if table:
-                        tables.extend(table)
-                # Convert list of tables to DataFrame
-                data = pd.DataFrame(tables[1:], columns=tables[0])
+            # Extract data from PDF using PyPDF2
+            pdf_reader = PdfReader(uploaded_file)
+            text = ""
+            for page in pdf_reader.pages:
+                text += page.extract_text()
+
+            # Process text into a DataFrame (basic parsing for demo purposes)
+            rows = [line.split() for line in text.split("\n") if line.strip()]
+            df_raw = pd.DataFrame(rows)
+
+            # Customize how to extract structured data from raw text
+            data = pd.DataFrame({
+                "Date": df_raw[0],   # Assuming the first column is the date
+                "Description": df_raw[1],  # Assuming the second column is description
+                "Amount": df_raw[2]   # Assuming the third column is amount
+            })
         else:
             st.error("Unsupported file type!")
     except Exception as e:
@@ -77,7 +85,6 @@ if uploaded_file:
         selected_date = st.selectbox("Select column for Date", data.columns)
         selected_amount = st.selectbox("Select column for Amount (Debit/Credit)", data.columns)
         selected_category = st.selectbox("Select column for Categories/Descriptions", data.columns)
-        selected_type = st.selectbox("Select column for Type (Income/Expense)", data.columns)
 
         # Preprocess data
         data[selected_date] = pd.to_datetime(data[selected_date], errors="coerce")
@@ -85,9 +92,9 @@ if uploaded_file:
         data = data.dropna(subset=[selected_date, selected_amount])
 
         # Calculate key metrics
-        total_income = data[data[selected_type].str.lower() == "income"][selected_amount].sum()
-        total_expenses = data[data[selected_type].str.lower() == "expense"][selected_amount].sum()
-        net_savings = total_income - total_expenses
+        total_income = data[data[selected_amount] > 0][selected_amount].sum()
+        total_expenses = data[data[selected_amount] < 0][selected_amount].sum()
+        net_savings = total_income + total_expenses
 
         # Visual Cards
         st.write("### Key Metrics")
@@ -125,7 +132,7 @@ if uploaded_file:
         # 3. Income vs Expenses
         with col3:
             st.write("#### Income vs Expenses")
-            type_summary = data.groupby(selected_type)[selected_amount].sum()
+            type_summary = data[selected_amount].groupby(data[selected_amount] > 0).sum()
             fig, ax = plt.subplots()
             type_summary.plot(kind="bar", ax=ax, color=["green", "red"])
             ax.set_title("Income vs Expenses")
