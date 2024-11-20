@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from io import BytesIO
 
 # Set page configuration
 st.set_page_config(
@@ -31,25 +30,24 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Sidebar for instructions
+# Sidebar instructions
 st.sidebar.header("Instructions")
 st.sidebar.info("""
 1. Upload your transaction file (CSV or Excel).\n
-2. The app will automatically detect columns and values.\n
-3. Visualize and analyze your expenses.\n
-4. Download your processed data or summary report.
+2. Select columns for each visualization.\n
+3. Analyze your data dynamically using visualizations and cards.\n
+4. Download your processed data.
 """)
-st.sidebar.write("Happy tracking! 🎉")
 
-# App title and header
+# App title
 st.title("💸 Personal Finance Tracker")
-st.subheader("Track and visualize your expenses effortlessly!")
+st.subheader("Track and visualize your expenses dynamically!")
 
 # File uploader
 uploaded_file = st.file_uploader("Upload your transaction file (CSV or Excel)", type=["csv", "xlsx"])
 
 if uploaded_file:
-    # Load the data
+    # Load the file
     try:
         if uploaded_file.name.endswith(".csv"):
             data = pd.read_csv(uploaded_file)
@@ -60,85 +58,104 @@ if uploaded_file:
     else:
         st.write("### Uploaded Data Preview", data.head())
 
-        # Automatic column type detection
-        st.write("### Analyzing Data Columns")
-        st.write("Detected columns and sample values:")
-        detected_columns = {}
-        for col in data.columns:
-            sample_values = data[col].dropna().unique()[:5]
-            detected_columns[col] = sample_values
-            st.write(f"**{col}**: {sample_values}")
+        # Column selection for analysis
+        st.write("### Select Columns for Analysis and Visualizations")
+        selected_date = st.selectbox("Select column for Date", data.columns)
+        selected_amount = st.selectbox("Select column for Amount (Debit/Credit)", data.columns)
+        selected_category = st.selectbox("Select column for Categories/Descriptions", data.columns)
+        selected_type = st.selectbox("Select column for Type (Income/Expense)", data.columns)
 
-        # Assign column types
-        date_col = next((col for col in data.columns if "date" in col.lower()), None)
-        desc_col = next((col for col in data.columns if "desc" in col.lower() or "category" in col.lower()), None)
-        amount_col = next((col for col in data.columns if "amount" in col.lower() or "debit" in col.lower() or "credit" in col.lower()), None)
-        income_expense_col = next((col for col in data.columns if "income" in col.lower() or "expense" in col.lower()), None)
+        # Preprocess data
+        data[selected_date] = pd.to_datetime(data[selected_date], errors="coerce")
+        data[selected_amount] = pd.to_numeric(data[selected_amount], errors="coerce")
+        data = data.dropna(subset=[selected_date, selected_amount])
 
-        if not date_col or not amount_col or not income_expense_col:
-            st.error("The required columns (Date, Amount, and Income/Expense) were not detected!")
-        else:
-            st.write(f"**Date Column**: {date_col}")
-            st.write(f"**Description Column**: {desc_col}")
-            st.write(f"**Amount Column**: {amount_col}")
-            st.write(f"**Income/Expense Column**: {income_expense_col}")
+        # Calculate key metrics
+        total_income = data[data[selected_type].str.lower() == "income"][selected_amount].sum()
+        total_expenses = data[data[selected_type].str.lower() == "expense"][selected_amount].sum()
+        net_savings = total_income - total_expenses
 
-            # Preprocessing
-            data = data.rename(columns={date_col: "Date", desc_col: "Description", amount_col: "Amount", income_expense_col: "Type"})
-            data["Date"] = pd.to_datetime(data["Date"], errors="coerce")
-            data["Amount"] = pd.to_numeric(data["Amount"], errors="coerce")
-            data.dropna(subset=["Date", "Amount"], inplace=True)
+        # Visual Cards
+        st.write("### Key Metrics")
+        col1, col2, col3 = st.columns(3)
+        col1.metric("💸 Total Expenses", f"${abs(total_expenses):,.2f}")
+        col2.metric("💰 Total Income", f"${total_income:,.2f}")
+        col3.metric("📈 Net Savings", f"${net_savings:,.2f}")
 
-            # Calculate totals
-            total_expenses = data[data["Type"].str.lower() == "expense"]["Amount"].sum()
-            total_income = data[data["Type"].str.lower() == "income"]["Amount"].sum()
-            net_savings = total_income - total_expenses
+        # Create visualizations
+        st.write("### Explore Data with Six Visualizations")
+        col1, col2, col3 = st.columns(3)
+        col4, col5, col6 = st.columns(3)
 
-            # Insights
-            st.write("### Key Metrics")
-            col1, col2, col3 = st.columns(3)
-            col1.metric("Total Expenses", f"${total_expenses:,.2f}")
-            col2.metric("Total Income", f"${total_income:,.2f}")
-            col3.metric("Net Savings", f"${net_savings:,.2f}")
+        # 1. Expense by Category
+        with col1:
+            st.write("#### Expense by Category")
+            category_summary = data.groupby(selected_category)[selected_amount].sum()
+            fig, ax = plt.subplots()
+            category_summary.plot(kind="bar", ax=ax, color="skyblue")
+            ax.set_title("Expenses by Category")
+            ax.set_ylabel("Amount")
+            st.pyplot(fig)
 
-            # Visualizations
-            st.write("### Expense Breakdown by Category")
-            if desc_col:
-                category_summary = data[data["Type"].str.lower() == "expense"].groupby("Description")["Amount"].sum()
-                fig, ax = plt.subplots(figsize=(10, 6))
-                category_summary.plot(kind="bar", ax=ax, color="skyblue")
-                ax.set_title("Expenses by Category")
-                ax.set_ylabel("Amount ($)")
-                st.pyplot(fig)
+        # 2. Monthly Trends
+        with col2:
+            st.write("#### Monthly Trends")
+            data["Month"] = data[selected_date].dt.to_period("M")
+            monthly_summary = data.groupby("Month")[selected_amount].sum()
+            fig, ax = plt.subplots()
+            monthly_summary.plot(ax=ax, color="cyan", marker="o")
+            ax.set_title("Monthly Trends")
+            ax.set_ylabel("Amount")
+            st.pyplot(fig)
 
-            
+        # 3. Income vs Expenses
+        with col3:
+            st.write("#### Income vs Expenses")
+            type_summary = data.groupby(selected_type)[selected_amount].sum()
+            fig, ax = plt.subplots()
+            type_summary.plot(kind="bar", ax=ax, color=["green", "red"])
+            ax.set_title("Income vs Expenses")
+            st.pyplot(fig)
 
-            # Export processed data
-            def convert_df(df):
-                return df.to_csv(index=False).encode("utf-8")
+        # 4. Daily Transactions
+        with col4:
+            st.write("#### Daily Transactions")
+            data["Day"] = data[selected_date].dt.date
+            daily_summary = data.groupby("Day")[selected_amount].sum()
+            fig, ax = plt.subplots()
+            daily_summary.plot(ax=ax, color="purple", marker="o")
+            ax.set_title("Daily Transactions")
+            ax.set_ylabel("Amount")
+            st.pyplot(fig)
 
-            csv = convert_df(data)
-            st.download_button(
-                label="Download Processed Data",
-                data=csv,
-                file_name="processed_transactions.csv",
-                mime="text/csv",
-            )
+        # 5. Top 5 Expense Categories
+        with col5:
+            st.write("#### Top 5 Categories")
+            top_categories = data.groupby(selected_category)[selected_amount].sum().nlargest(5)
+            fig, ax = plt.subplots()
+            sns.barplot(x=top_categories.values, y=top_categories.index, ax=ax, palette="Reds_r")
+            ax.set_title("Top 5 Categories")
+            ax.set_xlabel("Amount")
+            st.pyplot(fig)
 
-            # Generate report
-            def generate_report(data):
-                output = BytesIO()
-                writer = pd.ExcelWriter(output, engine="xlsxwriter")
-                data.to_excel(writer, index=False, sheet_name="Transactions")
-                summary = data.groupby("Description")["Amount"].sum()
-                summary.to_excel(writer, sheet_name="Summary")
-                writer.save()
-                return output.getvalue()
+        # 6. Cumulative Savings
+        with col6:
+            st.write("#### Cumulative Savings")
+            data["Cumulative"] = data[selected_amount].cumsum()
+            fig, ax = plt.subplots()
+            ax.plot(data[selected_date], data["Cumulative"], color="green", marker="o")
+            ax.set_title("Cumulative Savings")
+            ax.set_ylabel("Amount")
+            st.pyplot(fig)
 
-            report = generate_report(data)
-            st.download_button(
-                label="Download Summary Report",
-                data=report,
-                file_name="summary_report.xlsx",
-                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-            )
+        # Download Processed Data
+        def convert_df(df):
+            return df.to_csv(index=False).encode("utf-8")
+
+        csv = convert_df(data)
+        st.download_button(
+            label="Download Processed Data",
+            data=csv,
+            file_name="processed_transactions.csv",
+            mime="text/csv",
+        )
