@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pdfplumber
 
 # Set page configuration
 st.set_page_config(
@@ -33,10 +34,10 @@ st.markdown("""
 # Sidebar instructions
 st.sidebar.header("Instructions")
 st.sidebar.info("""
-1. Upload your transaction file (CSV or Excel).\n
-2. Select columns for each visualization.\n
-3. Analyze your data dynamically using visualizations and cards.\n
-4. Download your processed data.
+1. Upload your bank statement file (Excel, CSV, or PDF).\n
+2. Select columns for analysis and visualizations.\n
+3. Explore your financial data dynamically using visualizations and cards.\n
+4. Download the processed data.
 """)
 
 # App title
@@ -44,15 +45,29 @@ st.title("💸 Personal Finance Tracker")
 st.subheader("Track and visualize your expenses dynamically!")
 
 # File uploader
-uploaded_file = st.file_uploader("Upload your transaction file (CSV or Excel)", type=["csv", "xlsx"])
+uploaded_file = st.file_uploader(
+    "Upload your bank statement file (CSV, Excel, or PDF)", type=["csv", "xlsx", "pdf"]
+)
 
 if uploaded_file:
-    # Load the file
+    # Load data based on file type
     try:
         if uploaded_file.name.endswith(".csv"):
             data = pd.read_csv(uploaded_file)
-        else:
+        elif uploaded_file.name.endswith(".xlsx"):
             data = pd.read_excel(uploaded_file)
+        elif uploaded_file.name.endswith(".pdf"):
+            # Extract tabular data from PDF using pdfplumber
+            with pdfplumber.open(uploaded_file) as pdf:
+                tables = []
+                for page in pdf.pages:
+                    table = page.extract_table()
+                    if table:
+                        tables.extend(table)
+                # Convert list of tables to DataFrame
+                data = pd.DataFrame(tables[1:], columns=tables[0])
+        else:
+            st.error("Unsupported file type!")
     except Exception as e:
         st.error(f"Error loading file: {e}")
     else:
